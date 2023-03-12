@@ -2,6 +2,11 @@
 ## Espritchatbot
 This is a chatbot designed to answer questions about Esprit University. It was created using the Rasa framework.
 
+## Prerequirments
+Python 3.4+
+Virtualenv
+pip
+
 ## Installation
 To open the chatbot, clone the repository to your local machine:
 
