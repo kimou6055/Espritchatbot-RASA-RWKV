@@ -63,27 +63,27 @@ rasa train
 ```
 ## File Structure
 
-Espritchatbot/
-├── .rasa/
-│   ├── cache/
-│   │   ├── tmp00lirg7m/
-│   │   │   └── patterns.pkl
-│   │   └── cache.db
-│   └── ...
-├── actions/
-│   ├── __init__.py
-│   ├── actions.py
-│   └── ...
-├── data/
-│   ├── nlu.yml
-│   └── stories.yml
-├── models/
-│   ├── 20230312-184216.tar.gz
-│   └── ...
-├── tests/
-│   ├── __init__.py
-│   └── ...
-├── config.yml
-├── credentials.yml
-├── domain.yml
-└── README.md
+Espritchatbot/                                                                              
+├── .rasa/                                                                                  
+│   ├── cache/                                                                              
+│   │   ├── tmp00lirg7m/                                                                    
+│   │   │   └── patterns.pkl                                                                
+│   │   └── cache.db                                                                        
+│   └── ...                                                                                 
+├── actions/                                                                                
+│   ├── __init__.py                                                                         
+│   ├── actions.py                                                                          
+│   └── ...                                                                                 
+├── data/                                                                                   
+│   ├── nlu.yml                                                                             
+│   └── stories.yml                                                                         
+├── models/                                                                                 
+│   ├── 20230312-184216.tar.gz                                                              
+│   └── ...                                                                                 
+├── tests/                                                                                  
+│   ├── __init__.py                                                                         
+│   └── ...                                                                                 
+├── config.yml                                                                              
+├── credentials.yml                                                                         
+├── domain.yml                                                                              
+└── README.md                                                                               
