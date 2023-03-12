@@ -50,6 +50,12 @@ Run the chatbot with nlu:
 rasa shell nlu
 ```
 
+
+Train the chat:
+
+```
+rasa train
+```
 ## File Structure
 
 Espritchatbot/
