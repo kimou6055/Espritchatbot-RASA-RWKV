@@ -1,116 +1,196 @@
 version: "3.1"
 
-
+entities:
+  - nationality
+actions:
+  - action_ask_nationality
+  - action_get_price_tunisian
+  - action_get_price_foreigner
+  - action_raven_generate_text
 intents:
- - greet
- - thanks
- - bye
- - salutation 
- - remerciement
- - byefr
- - options
-# - fields
- - contact
- - courssoir
- - mobilite_internationale
- - difference_3A_3B_eng
- - difference_3A_3B_fr
- - avantage_alternance
- - concours_admission_fr
- - reclamation_confirmation_admission_fr
- - reclamation_confirmation_admission_eng
- - reporter_entretien_eng
- - reporter_entretien_fr
- - modalites_paiement_eng
- - modalites_paiement_fr
- - cout_formation_eng
- - cout_formation_fr
- - date_preinscription_eng
- - date_preinscription_fr
- - covidSession
- - covidSession_fr
- - docs
- - video
- - B2
- - B2_fr
- - rentree_fr
- - rentree_ang
- - modalite_fr
- - modalite_ang
- - place_fr
- - place_ang
- - inscri_ing_info_fr
- - inscri_ing_info_ang
- - licence_info_fr
- - licence_info_ang
- - alternance_fr
- - alternance_ang
- - admission_fr
- - admission_ang
- - inscri_bac_fr
- - inscri_bac_ang
- - note_fr
- - note_eng
- - club_eng
- - club_fr
- - avantage_alternance_eng
- - concours_admission_eng
- - courssoir_eng
- - cout_restauration_fr
- - cout_hebergement_fr
- - cout_restauration_ang
- - cout_hebergement_ang
- - pcr_fr
- - pcr_ang
- - classe_ang
- - classe_fr
- - date_res_ang
- - date_res_fr
- - valider_module_ang
- - valider_module_fr
- - admis_ang
- - admis_fr
- - carte_amen_ang
- - carte_amen_fr
- - double_correction_eng
- - confirmation_option_eng
- - conseil_classe_eng
- - credit_eng
- - exemples_rapport_stage_eng
- - procedure_stage_eng
- - double_correction_fr
- - confirmation_option_fr
- - conseil_classe_fr 
- - credit_fr
- - exemples_rapport_stage_fr
- - procedure_stage_fr
- - obtention_diplome_ang
- - obtention_diplome_fr
- - absence_examen_ang
- - absence_examen_fr
- - redoublement_ang
- - redoublement_fr
- - ratt_ang
- - ratt_fr
- - annulation_inscription_eng
- - annulation_inscription_fr
- - regime_etude_eng
- - regime_etude_fr
- - photo_foyer_eng
- - photo_foyer_fr
- - photo_foyer_externe_eng
- - photo_foyer_externe_fr
- - photo_foyer_interne_eng
- - photo_foyer_interne_fr
- - filiere_fr
- - lien_doc_fr
- - lien_video_fr
- - filiere_ang
- - lien_doc_ang
- - lien_video_ang
- - mobilite_internationale_eng
+- greet
+- thanks
+- bye
+- date_preinscription_eng
+- difference_3A_3B_eng
+- reclamation_confirmation_admission_eng
+- reporter_entretien_eng
+- modalites_paiement_eng
+- cout_formation_eng
+- covidSession
+- B2
+- rentree_ang
+- modalite_ang
+- place_ang
+- inscri_ing_info_ang
+- licence_info_ang
+- alternance_ang
+- admission_ang
+- inscri_bac_ang
+- note_eng
+- club_eng
+- concours_admission_eng
+- courssoir_eng
+- cout_hebergement_ang
+- cout_restauration_ang
+- pcr_ang
+- classe_ang
+- date_res_ang
+- valider_module_ang
+- admis_ang
+- carte_amen_ang
+- double_correction_eng
+- confirmation_option_eng
+- conseil_classe_eng
+- credit_eng
+- exemples_rapport_stage_eng
+- procedure_stage_eng
+- avantage_alternance_eng
+- obtention_diplome_ang
+- absence_examen_ang
+- redoublement_ang
+- ratt_ang
+- annulation_inscription_eng
+- regime_etude_eng
+- mobilite_internationale_eng
+- photo_foyer_eng
+- photo_foyer_externe_eng
+- photo_foyer_interne_eng
+- filiere_ang
+- lien_doc_ang
+- lien_doc_fr
+- lien_video_ang
+- salutation
+- remerciement
+- byefr
+- contact
+- courssoir
+- date_preinscription_fr
+- mobilite_internationale
+- avantage_alternance
+- difference_3A_3B_fr
+- concours_admission_fr
+- reclamation_confirmation_admission_fr
+- reporter_entretien_fr
+- modalites_paiement_fr
+- covidSession_fr
+- cout_formation_fr
+- B2_fr
+- rentree_fr
+- modalite_fr
+- place_fr
+- inscri_ing_info_fr
+- licence_info_fr
+- alternance_fr
+- admission_fr
+- inscri_bac_fr
+- note_fr
+- double_diplome
+- certificat
+- stage
+- paiement_par_tranche_fr
+- info_generale_esprit
+- avantage_esprit_fr
+- procedure_inscription_fr
+- club_fr
+- cout_hebergement_fr
+- cout_restauration_fr
+- pcr_fr
+- classe_1ere_fr
+- date_res_fr
+- valider_module_fr
+- admis_fr
+- carte_amen_fr
+- double_correction_fr
+- confirmation_option_fr
+- conseil_classe_fr
+- credit_fr
+- exemples_rapport_stage_fr
+- procedure_stage_fr
+- obtention_diplome_fr
+- absence_examen_fr
+- redoublement_fr
+- ratt_fr
+- annulation_inscription_fr
+- regime_etude_fr
+- photo_foyer_fr
+- photo_foyer_externe_fr
+- photo_foyer_interne_fr
+- filiere_fr
+- applicabilite_formation_fr
+- reconnaissance_diplome_fr
+- reduction_premier_fr
+- administration_fr
+- partenaires_fr
+- salutation_ar
+- remerciement_ar
+- bye_ar
+- contact_ar
+- courssoir_ar
+- date_preinscription_ar
+- mobilite_internationale_ar
+- avantage_alternance_ar
+- difference_3A_3B_ar
+- concours_admission_ar
+- reclamation_confirmation_admission_ar
+- reporter_entretien_ar
+- modalites_paiement_ar
+- cout_formation_ar
+- B2_ar
+- rentree_ar
+- modalite_ar
+- place_ar
+- inscri_ing_info_ar
+- licence_info_ar
+- alternance_ar
+- admission_ar
+- inscri_bac_ar
+- note_ar
+- double_diplome_ar
+- certificat_ar
+- stage_ar
+- info_generale_esprit_ar
+- avantage_esprit_ar
+- procedure_inscription_ar
+- club_ar
+- cout_restauration_ar
+- cout_hebergement_ar
+- pcr_ar
+- classe_1ere_ar
+- date_res_ar
+- valider_module_ar
+- admis_ar
+- carte_amen_ar
+- double_correction_ar
+- confirmation_option_ar
+- conseil_classe_ar
+- credit_ar
+- exemples_rapport_stage_ar
+- procedure_stage_ar
+- obtention_diplome_ar
+- absence_examen_ar
+- redoublement_ar
+- ratt_ar
+- annulation_inscription_ar
+- regime_etude_ar
+- photo_foyer_ar
+- photo_foyer_externe_ar
+- photo_foyer_interne_ar
+- filiere_ar
+- applicabilite_formation_ar
+- reconnaissance_diplome_ar
+- reduction_premier_ar
+- administration_ar
+- partenaires_ar
+- raven
 
 responses:
+ utter_ask_nationality:
+  - text: "Êtes-vous tunisien ou étranger ?"
+ utter_price_tunisian:
+  - text: "Le prix d'inscription pour les étudiants tunisiens est de 1000 DT."
+ utter_price_foreigner:
+  - text: "Le prix d'inscription pour les étudiants étrangers est de 3000 DT."
  utter_greet:
   - text: "Hi there\n\nHow can I help you?"
  utter_salutation:
@@ -131,7 +211,7 @@ responses:
   - text: "You can change the date of your interview via Esprit website"
 
  utter_modalites_paiement_fr:
-  - text : "- Par virement bancaire : Nous acceptons les virements bancaires. 
+  - text : "- Par virement bancaire : Nous acceptons les virements bancaires. 
             Veuillez effectuer votre paiement à notre compte bancaire : 
             ESPRIT / banque : AMEN BANK / Agence raoued / RIB : 07 035 0020 101 10136691\n
             - Paiement en ligne\n   
@@ -243,7 +323,6 @@ semestre d'échange ou bien double-diplôme 🌍 \n\nPour plus d'information: ht
 
  utter_rentree_fr:
    - text: "👩‍🏫 Rentrée universitaire : 2021 - 2022 👩‍🏫 \n
-
 🔹 l'activité APP0 se tiendra au cours de la semaine du 6 septembre \n
 🔹 la reprise des cours pour les anciens étudiants aura lieu à partir du 13 septembre \n
 Pour plus d'informations : https://esprit.tn/admission/esprit-ingenieur"
@@ -251,7 +330,6 @@ Pour plus d'informations : https://esprit.tn/admission/esprit-ingenieur"
 
  utter_rentree_ang:
    - text: "👩‍🏫 Start of the academic year: 2021 - 2022 👩‍🏫\n
-
 🔹 APP0 activity will be held during the week of September 6 \n
 🔹 the resumption of classes for former students will take place from September 13 \n
 For more information: https://prit.tn/admission/ esprit-ingenieur "
@@ -326,7 +404,6 @@ For more information: https://prit.tn/admission/ esprit-ingenieur "
         - ESPRIT Club Internationaux\n
         - EMUN\n
         - ESPRIT Club engineers Spark\n\n
-
         pour plus d'informations
         https://esprit.tn/vie-etudiante/vie-campus/clubs"
   
@@ -353,7 +430,6 @@ For more information: https://prit.tn/admission/ esprit-ingenieur "
         - ESPRIT Club Internationaux\n
         - EMUN\n
         - ESPRIT Club engineers Spark\n\n
-
         for more information check this link
         https://esprit.tn/vie-etudiante/vie-campus/clubs"
   
@@ -387,17 +463,14 @@ academics and job seekers, holders of a bachelor's degree or more
 
  utter_cout_restauration_fr:
    - text: "               🥗Frais Restauration 2021/2022 🥗\n
-
             Pension complète (petit déjeuner, déjeuner et diner) \n
             ⭐ 500 DT par mois \n
             ⭐ 1 900 DT par tranche   \n
             ⭐ 3 800 DT par an\n
-
             Demi-pension (F1) (petit déjeuner, déjeuner ou diner) \n
             ⭐ 310 DT  par mois\n
             ⭐1 100 DT par tranche   \n
             ⭐2 200 DT par an\n
-
             Demi-pension (F2)  (déjeuner ou diner) \n
             ⭐250 DT  par mois\n
             ⭐865 DT par tranche \n  
@@ -405,36 +478,31 @@ academics and job seekers, holders of a bachelor's degree or more
 
  utter_cout_hebergement_fr:
    - text: "          🏫  Frais Hébergement 2021/2022  🏫 \n
-
 ⭐ Chambre double 2400 DT \n
 ⭐ Appartement S1 pour 4 personnes  2500 DT\n"
 
  utter_cout_hebergement_ang:
    - text: "          🏫  Accommodation Fees 2021/2022  🏫 \n
-
 ⭐ Double room 2400 DT \n
 ⭐ Apartment for 4 people  2500 DT\n"
 
  utter_cout_restauration_ang:
    - text: "               🥗 Catering costs 2021/2022 🥗\n
-
             Full board (breakfast, lunch and dinner) \n
             ⭐ 500 DT per month \n
             ⭐ 1 900 DT per installment   \n
             ⭐ 3 800 DT per year\n
-
             Half board (F1) (breakfast, lunch or dinner) \n
             ⭐ 310 DT  per month\n
             ⭐1 100 DT per installment   \n
             ⭐2 200 DT per year\n
-
             Half board (F2) (lunch or dinner) \n
             ⭐250 DT  per month\n
             ⭐865 DT per installment \n  
             ⭐1 730 DT per year\n"
 
  utter_pcr_fr: 
-   - text: "Vous devez soumettre votre dossier qui contient le test PCR à l'école, au Service Elève"
+   - text: "Vous devez soumettre votre dossier qui contient le test PCR à l'école, au Service élève"
 
  utter_pcr_ang: 
    - text: "You must submit your file which contains the PCR test at the school, at the Student Service"
@@ -477,7 +545,6 @@ less than 10/20."
     ⭐ Pour la session de rattrapage:
         • Moyenne générale >= 10/20   \n
         • Déficit cumulé <= 15 ECTS (Il doit être égal à 0 ECTS si l'élève est en 5ème année) \n \n
-
     Les élèves, n’ayant pas satisfait les conditions précitées d’admission en année supérieure, sont
 considérés comme des cas spécifiques qui seront soumis au « Conseil Annuel » pour délibération. Il
 s’agit précisément des élèves ayant obtenu après rattrapage une moyenne générale supérieure ou
@@ -496,7 +563,6 @@ ces cassoit l’admission en année supérieure avec ou sans déficit,soit le re
    ⭐ For the retake session:\n
         • General average> = 10/20 \n
         • Cumulative deficit <= 15 ECTS (It must be equal to 0 ECTS if the student is in 4th year) \n \n
-
     Students who have not met the aforementioned conditions for admission to the next year are
 considered as specific cases which will be submitted to the 'Annual Council' for deliberation. It's about students who
  obtained after retake session a higher general average or equal to 10/20 and having totaled a cumulative deficit 
@@ -772,7 +838,7 @@ college year"
 ##################################################################
 
  utter_default:
-  - text: "j'ai pas compris"
+  - text: "Je ne peux pas répondre"
 
 
 

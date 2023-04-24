@@ -12,8 +12,6 @@ nlu:
     - morning
     - hey there
     - hey dude
-
-
 - intent: thanks
   examples: |
     - thank you
@@ -23,9 +21,6 @@ nlu:
     - that's it
     - thanks for your help
     - thanks for helping
-
-
-
  
 
   
@@ -38,8 +33,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
-
 - intent: date_preinscription_eng
   examples: |
     - when can we pre-register on the site?
@@ -57,8 +50,6 @@ nlu:
     - what's the date for registration?
     - what's the date of pre-registration on the site?
     - on which day ies the regestration?
-
-
 - intent: difference_3A_3B_eng
   examples: |
     - what is the difference between  3a and 3b?
@@ -68,7 +59,6 @@ nlu:
     - how can we differentiate between 3a and 3b
     - 3a and 3b
     - could you compare 3a and 3b
-
 - intent: reclamation_confirmation_admission_eng
   examples: |
     - i did not receive a pre-registration confirmation email
@@ -80,7 +70,6 @@ nlu:
     - i didin't get a pre-registration confirmation email
     - i didin't get an admission email.
     - no one send me any email about the admission
-
 - intent: reporter_entretien_eng
   examples: |
     - i want to reschedule my interview
@@ -101,7 +90,6 @@ nlu:
     - postpone the meeting
     - rearrange interview
     - delay interview
-
 - intent: modalites_paiement_eng
   examples: |
     - what are the payment terms?
@@ -116,8 +104,6 @@ nlu:
     - what about payment?
     - how the payment is done?
     - payment
-
-
 - intent: cout_formation_eng
   examples: |
     - what is the total cost of the training?
@@ -135,8 +121,6 @@ nlu:
     - costs
     - financial costs
     - what are the financial costs
-
-
 - intent: covidSession
   examples: |
     - when the covid session starts?
@@ -151,8 +135,6 @@ nlu:
     - who has the possibility to pass exams during the covid session
     - how to registrate in the covid session
     - registrate in the covid session
-
-
 - intent: B2
   examples: |
     - how to know if i got my b2 level?
@@ -166,8 +148,6 @@ nlu:
     - where can i find my result of the b2 level?
     - how to get my result of the b2 level?
     
-
-
 - intent: rentree_ang
   examples: |
     - when do we go back to the school?
@@ -180,8 +160,6 @@ nlu:
     - return to college
     - back to college
     - back to university
-
-
 - intent: modalite_ang
   examples: |
     - what is the modality for this academic year?
@@ -192,8 +170,6 @@ nlu:
     - how are we going to study this year?
     - what is the strategy for this academic year?
     - are we going to study online or at school?
-
-
 - intent: place_ang
   examples: |
     - for the 5th engineering year, the courses will take place in charguia or el Ghazela?
@@ -202,7 +178,6 @@ nlu:
     - where is the location of studying for the 5th engineering year?
     - where will the 5th year students study?
     - are the 5th year students going to study in charguia?
-
 - intent: inscri_ing_info_ang
   examples: |
     - if i have a diploma that has no connection with it, can i do engineering at esprit?
@@ -213,7 +188,6 @@ nlu:
     - i do not have a computer science license can i register for esprit engineer
     - having a licence degree in chemistry can i register for esprit engineer ?
     
-
 - intent: licence_info_ang
   examples: |
     - i had a licence in computer science, if i register at esprit i would be assigned to which level?
@@ -223,7 +197,6 @@ nlu:
     - i have a computer science license i want to know which class i will be assigned to
     - i have a computer science license will i be assigned to the 3rd or 4th?
     
-
 - intent: alternance_ang
   examples: |
     - what is the procedure for making an alteration at esprit?
@@ -234,8 +207,6 @@ nlu:
     - alternance registration
     - i want information about the work-study program
     - i want information about the alternance program
-
-
 - intent: admission_ang
   examples: |
     - who should be contacted for further information about admission?
@@ -246,7 +217,6 @@ nlu:
     - i want to contact the registration manager
     - registration manager
     - the contact of regestration manager
-
 - intent: inscri_bac_ang
   examples: |
     - can students without a baccalaureate register?
@@ -256,7 +226,6 @@ nlu:
     - whithout baccalaureate can i register at esprit?
     - regestration without baccalaureate
     - without baccalaureate 
-
 - intent: note_eng
   examples: |
     - how can i see my grades?
@@ -267,8 +236,6 @@ nlu:
     - is it possile to check my result on the website
     - grades
     - my grades
-
-
 - intent: club_eng
   examples: |
     - what are the available clubs
@@ -280,9 +247,6 @@ nlu:
     - i want information about the club
     - club list
     - list of clubs
-
-
-
 - intent: concours_admission_eng
   examples: |
     - how the admission exam will be passed
@@ -295,8 +259,6 @@ nlu:
     - i want information about the admission exam
     - admission exam
     - entrance examination
-
-
 - intent: courssoir_eng
   examples: |
     - evening class
@@ -313,13 +275,11 @@ nlu:
     - can i register for the evening course?
     - can i have details about the evening course?
     - i want details about the evening course
-
-
 - intent: cout_hebergement_ang
   examples: |
     - what is the cost of hosting?
     - accommodation costs
-    - what is the cost for accomodation? 
+    - what is the cost for accomodation? 
     - cost for accomodation
     - how much does the student housing costs?
     - student housing cost
@@ -331,13 +291,12 @@ nlu:
     - lodging
     - lodging cost
     - accommodation fees
-
 - intent: cout_restauration_ang
   examples: |
     - what is the cost of the canteen?
     - what is the cost of the school restaurent?
     - cost of restaurent
-    - cost of canteen 
+    - cost of canteen 
     - refectory cost
     - what is the price of the canteen?
     - i want to know the price of the school restaurent 
@@ -350,7 +309,6 @@ nlu:
     - catering costs
     - catering fees
     - what are the catering costs?
-
 ##########
 - intent: pcr_ang
   examples: |
@@ -358,7 +316,6 @@ nlu:
     - is it compulsory to drop off the pcr test at school?
     - should we take the pcr test at school?
     - can we send the pcr test by email only?
-
 - intent: classe_ang
   examples: |
     - we can't get to know our 1st year classes what should we do?
@@ -369,9 +326,6 @@ nlu:
     - how do i find out which class i am assigned to?
     - how do i request my assignment for the 1st year classes?
     - class assignment
-
-
-
 - intent: date_res_ang
   examples: |
     - when will we have the result?
@@ -381,7 +335,6 @@ nlu:
     - date of result
     - i want to find out about the date of the result
     - i want to know the date of the result
-
 - intent: valider_module_ang
   examples: |
     - with an average lower than 10, the modules will be validated with 8 or 10?
@@ -390,7 +343,6 @@ nlu:
     - validate a module
     - grade to validate a module
     - with what grade does a module validate?
-
 - intent: admis_ang
   examples: |
     - what is the minimum average to pass?
@@ -409,7 +361,6 @@ nlu:
     - what is the required average to have a redemption 
     - with what average i can have a redemption?
     - average redemption
-
 - intent: carte_amen_ang
   examples: |
     - what are the advantages of amen bank's bank cards?
@@ -420,7 +371,6 @@ nlu:
     - what is the benefit of the amen bank credit card?
     - the privilege of the credit card of amen bank
     - i want to know the advantages of the amen bank credit card
-
 ########################################################
 - intent: double_correction_eng
   examples: |
@@ -433,8 +383,6 @@ nlu:
     - double correction procedure
     - reevaluation 
     - grade verification
-
-
 - intent: confirmation_option_eng
   examples: |
     - when do you confirm the choice of fields?
@@ -443,7 +391,6 @@ nlu:
     - when we can know the result of the orientation
     - when we will know our fields
     - orientation result 
-
 - intent: conseil_classe_eng
   examples: |
     - when do class councils start?
@@ -452,7 +399,6 @@ nlu:
     - when the class counseling period begins
     - class council period
     - class council date 
-
 - intent: credit_eng
   examples: |
     - how can i check my credits list
@@ -464,7 +410,6 @@ nlu:
     - how do i know if i have subject to repass
     - credit 
     - credits
-
 - intent: exemples_rapport_stage_eng
   examples: |
     - how can obtain examples of internship reports
@@ -474,7 +419,6 @@ nlu:
     - where can i have examples of an internship report?
     - where can i find the internship reports of former students?
     - reports
-
 - intent: procedure_stage_eng
   examples: |
     - what is the procedure for doing an internship?
@@ -483,7 +427,6 @@ nlu:
     - i want information about internships?
     - information about internship
     - internship procedure
-
 - intent: avantage_alternance_eng
   examples: |
     - what are the advantages of work-study training?
@@ -493,9 +436,6 @@ nlu:
     - the benefits of work-study training
     - what are the advantages of work-study training?
     - why work-study training?
-
-
-
 ############
 - intent: obtention_diplome_ang
   examples: |
@@ -506,8 +446,6 @@ nlu:
     - graduation condition
     - what are the conditions for graduation
     - what does it take to graduate?
-
-
 - intent: absence_examen_ang
   examples: |
     - what to do when a student is sick during exams
@@ -522,7 +460,6 @@ nlu:
     - when we redo an because of the absence
     - when you redo an exam after being absentt?
     - how to retake an exam if you were absent?
-
 - intent: redoublement_ang
   examples: |
     - when we repeat classes?
@@ -537,7 +474,6 @@ nlu:
     - if we repeat class, do we have to attend the validated modules another time?
     - if you repeat class a year, do you have to attend the non-validated modules?
     - if one repeats class, should one attend the new modules introduced in the program.
-
 - intent: ratt_ang
   examples: |
     - what is the catch-up session?
@@ -547,7 +483,6 @@ nlu:
     - can i take the tps again during the remedial session??
     - are the projers the subject of a catch-up?
   
-
 - intent: annulation_inscription_eng
   examples: |
     - how do i cancel my registration?
@@ -559,9 +494,6 @@ nlu:
     - what is the deadline to cancel my registration
     - can i recover the registration fees after canceling my registration?
     - is the cancellation of registration refundable
-
-
-
 - intent: regime_etude_eng
   examples: |
     - what is the duration of the studies at esprit?
@@ -575,7 +507,6 @@ nlu:
     - study regime
     - duration of the engineering diploma 
   
-
 - intent: mobilite_internationale_eng
   examples: |
     - is there any opportunities to study abroad?
@@ -592,25 +523,20 @@ nlu:
     - opportunities to study abroad
     - can i do a double degree?
     - international mobility
-
 - intent: photo_foyer_eng
   examples: |
     - i want pictures of esprit residence 
     - can you send me picture of esprit residence ?
     - pictures residence
     - i want some pictures of esprit residence
-
-
 - intent: photo_foyer_externe_eng
   examples: |
     - here are the pictures of al amen residence
     - here are the pictures of al amen residence :
-
 - intent: photo_foyer_interne_eng
   examples: |
     - here are the pictures of esprit internal residence
     - here are the pictures of esprit internal residence (block 1)
-
 - intent: filiere_ang
   examples: |
     - what are the available fields
@@ -624,17 +550,18 @@ nlu:
     - what fields could i choose as an engineering student?
     - fields
     
-
 - intent: lien_doc_ang
   examples: |
     - here is the link for documentation 
     - here the link for documentation :
-
+- intent: lien_doc_fr
+  examples: |
+    - test
+    - test 2
 - intent: lien_video_ang
   examples: |
     - here is the link for the video 
     - here the link for the video :
-
 ##################### francais #################################
 
 
@@ -649,8 +576,6 @@ nlu:
     - coucou
     - allo  
     - salut 
-
-
 - intent: remerciement
   examples: |
     - je te remercie beaucoup 
@@ -664,21 +589,21 @@ nlu:
     - merci pour votre aide !
     - Je te suis très reconnaissant
     - Je te suis très reconnaissante pour ton aide 
-
-
-
+    - Mille mercis
+    - Vous avez été d'une grande aide, merci.
 - intent: byefr
   examples: |
     - au revoir
     - à toute à l'heure 
     - bientôt
-    - bonne soirée
+    - bonne soirée  
     - bonne nuit
     - à plus
+    - prenez soin de vous
     - à la prochaine
+    - bye
     - plus tard
-
-
+    - bonne journée
 - intent: contact
   examples: |
     - numero de téléphone
@@ -693,8 +618,9 @@ nlu:
     - contact esprit?
     - administration phone number
     - contact
+    - num tel
     - je veux contacter l'administration
-
+    - sur quelle adresse mail je peux vous contacter?
 - intent: courssoir
   examples: |
     - cours de soir
@@ -706,11 +632,13 @@ nlu:
     - informations sur le cours de soir
     - je veux savoir des informations convernant le cours de soir
     - cours de soir?
+    - quels sont les horaires du cours du soir ?
     - qui peux s'inscrire dans le cours de soir?
     - est ce que je peux m'inscrire dans le cours de soir?
     - puis-je avoir des  détails concernant le cours de soir?
-    - je des détails sur le cours de soir
-
+    - je veux savoir plus de détails sur le cours de soir
+    - les cours du soir sont-ils ouverts à tous les niveaux?
+    - quelle est la durée typique d'un cours du soir ?
 - intent: date_preinscription_fr
   examples: |
     - quand on peut faire la préinscription sur le site?
@@ -723,27 +651,28 @@ nlu:
     - y aura t'il une 2e session pour ceux qui sont en retard pour l'inscription?
     - date préinscription
     - date inscription
+    - préinscri
+    - Y a-t-il une limite de places pour les pré-inscriptions?
     - je veux savoir la date d'inscription
     - je veux savoir les dates des sessions d'inscription
-
+    - quel est le processus de pré-inscription?
 - intent: mobilite_internationale
   examples: |
     - est-ce-qu'il ya des opportunités de mobilité à l'international?
     - opportunités de mobilité à l’international 
     - mobilité à l’international
     - esprit offre des mobilités à l'international?
-    - double diplôme
     - semestre d'échange
-    - semestre d'echange 
-    - double-diplome
-    - offres de double diplôme
+    - comment je peux etudier a l'etranger 
     - quelles sont les opportunités a l'etranger
     - quelles sont les offres d'etudier a l'etranger
     - je peux etudier a l'etranger?
-    - opportunités d'etudier de faire un double diplôme
-    - je peux faire un double diplôme?
     - mobilité internationale
-
+    - offres de mobilités
+    - quels sont les avantages d'une expérience de mobilité internationale ?
+    - quels sont les critères d'admissibilité pour une expérience de mobilité internationale ?
+    - quels sont les coûts associés à une expérience de mobilité internationale ?
+    - quelle est la durée typique d'une expérience de mobilité internationale ?
 - intent: avantage_alternance
   examples: |
     - quelles sont les avantages de la formations en alternance?
@@ -753,8 +682,9 @@ nlu:
     - les plus de la formation en alternance
     - quelles sont les plus de la formation en alternance?
     - pourquoi la formation en alternance?
+    - quels sont avantages de la formation en alternance?
     - pourquoi faire des cours en alternance?
-    
+    - alternance a esprit
     
 - intent: difference_3A_3B_fr
   examples: |
@@ -763,22 +693,19 @@ nlu:
     - quelles sont les différences entre 3a et 3b ?
     - en quoi 3a differt de 3b
     - je me demande c'est quoi la différence entre la 3eme a et la 3eme b en informatique?
-    - différence entre 3a et 3b 
-
-
-
+    - 3a et 3b 
+    - est ce qu'il y a une différence entre 3a et 3b?
 - intent: concours_admission_fr
   examples: |
     - comment se déroule le concours d'admission?
     - comment se passe le concours d'admission?
     - je veux des informations sur le concours d'admission
-    - déroulement de concours d'admission
+    - déroulement du concours d'admission
     - donnez moi des informations sur le déroulement de concours d'admission
     - je veux des informations concernant le concours d'admission
     - concours d'admission
-
-
-
+    - donne moi plus de details sur le concours d'admission
+    
 - intent: reclamation_confirmation_admission_fr
   examples: |
     - Je n'ai pas reçu un mail de confirmation de préinscription 
@@ -788,10 +715,10 @@ nlu:
     - J'ai reçu aucune confirmation de préinscription 
     - j'ai pas reçu le mail de confirmation d'admission
     - j'ai pas reçu le mail de confirmation préinscription
+    - j'ai rien reçu à propos la onfirmation de préinscription
+    - aucun mail de confirmation d'admission
+    - aucun mail ne m'a été transmis pour me notifier de mon admission.
     
-
-
-
 - intent: reporter_entretien_fr
   examples: |
     - Je veux reporter mon entretien
@@ -800,27 +727,30 @@ nlu:
     - comment je peux reporter mon entretien?
     - reporter entretien
     - décaler l'entretien
+    - comment je peux choisir une nouvelle date pour l'entretien
+    - est ce que je peux reporter mon entretien?
     - je veux décaler mon entretien
     - reporter mon entretien
     - changer la date de l'entretien
     - reporter entretien
-
-
+    - puis-je reporter mon entretien?
 - intent: modalites_paiement_fr
   examples: |
     - comment on peut payer esprit?
-    - quels sont les modalités de paiement ?
-    - les modalités de paiement ?
+    - quels sont les modalités de paiement ?
+    - les modalités de paiement ?
     - Je veux des informations concernant les modalités de paiement
     - quels sont les modalités de paiement disponible ?
     - quelle est la procédure de payement?
+    - comment proceder au payement?
     - comment on fait pour payer les frais de scolarité?
     - frais de scolarité
     - comment payer ?
     - modalités de paiement
     - modalités  paiement
-
-
+    - quelles sont les méthodes de paiement acceptées ?
+    - de quelle manière puis-je effectuer le paiement ?
+    - Y a-t-il plusieurs options de paiement disponibles ?
 - intent: covidSession_fr
   examples: |
     - quand est-ce que la session covid commence?
@@ -830,11 +760,9 @@ nlu:
     - session covid
     - examen session covid
     - c'est quand la session covid?
-
-
 - intent: cout_formation_fr
   examples: |
-    - quel est le coût total de la formation ?
+    - quel est le coût total de la formation ?
     - les frais d'inscription
     - combien coute la formation?
     - combien coute la formation à esprit?
@@ -847,9 +775,6 @@ nlu:
     - combien on doit payer par an ?
     - prix inscription
     - prix de la formation ?
-
-
-
 - intent: B2_fr
   examples: |
     - comment je peux savoir si j'ai mon niveau b2?
@@ -864,8 +789,6 @@ nlu:
     - comment je peux savoir si j'ai validé mon b2?
     - comment je peux savoir si j'ai validé le niveau b2?
     - note b2
-
-      
 - intent: rentree_fr
   examples: |
     - c'est quand exactement la rentrée cette année pour esprit ingénieur?
@@ -882,8 +805,6 @@ nlu:
     - c'est quand la rentrée scolaire?
     - quelle est la date de renrée?    
     - c'est pour quand la rentrée des 1ère année à esprit cette année ? 
-
-
 - intent: modalite_fr
   examples: |
     - comment se passera l'année unisversitaire?
@@ -901,9 +822,6 @@ nlu:
     - on va suivre une formation à distance ou présentiel?
     - est-ce-qu'on va suivre une formation à distance ou à l'école?
     - quelle est la modalité d'enseignement
-
-
-
 - intent: place_fr
   examples: |
     - pour les 5éme année ingénieur, les cours se passent à charguia ou à el Ghazela?
@@ -915,9 +833,6 @@ nlu:
     - les étudiants en 5eme vont étudier a charguia?
     - ou vont étudier les étudiants en 5eme année?
     
-
-
-
 - intent: inscri_ing_info_fr
   examples: |
     - ayant un diplome qui n'a pas de relation avec l'informatique, est ce que je peux faire ingénerie à esprit?
@@ -926,7 +841,9 @@ nlu:
     - est ce que je peux rejoindre esprit ingénieur sans avoir une licence informatique
     - je ne possede pas une licence en informatique est ce que je peux m'inscrire à esprit ingénieur
     - j'ai une licence en chimie est ce que je peux m'inscrire a esprit ingénieur?
-
+    - inscription a esprit ingénieur
+    - inscri
+    - inscri cycle ingénieur
    
 - intent: licence_info_fr
   examples: |
@@ -936,8 +853,7 @@ nlu:
     - ayant une licence en informatique, je serais affecté à quelle niveau?
     - j'ai une licence informatique je veux savoir à quelle classe je serai affecté
     - j'ai une licence informatique est ce que je serai affecté au 3eme ou 4eme ?
-
-
+    - si j'ai une licence en information dans quelle classe je vais être inscrit?
 - intent: alternance_fr
   examples: |
     - quelle est la procedure pour faire une altérnance à esprit?
@@ -948,9 +864,9 @@ nlu:
     - quelles sont les procédures pour faire une alternance à esprit?
     - inscription en alternance
     - procedure formation en alternance
+    - aleternance esprit
     - je veux des informations sur l'alternance
     - je veux des informations sur la formation en alternance
-
 - intent: admission_fr
   examples: |
     - qui doit-on contacter pour obtenir des informations complémentaires sur l’admission ?
@@ -960,9 +876,6 @@ nlu:
     - je veux contacter le responsable inscription
     - responsable inscription
     - je veux parler avec le responsable de l'inscription
-
-
-
 - intent: inscri_bac_fr
   examples: |
     - est-ce que les élèves sans bac peuvent s'inscrire?
@@ -974,13 +887,6 @@ nlu:
     - inscription sans bac
     - sans bac
     - est-ce tous les étudiants peuvent s'inscrire dans votre école ou cela dépend de la moyenne? 
-
-
-
-    
-
-
-
 #####################new francais#################################
 - intent: note_fr
   examples: |
@@ -993,10 +899,74 @@ nlu:
     - comment je peux savoir mes notes?
     - notes
     - mes notes
-    - résultat principale    
-
+    - résultat principale  
+    - résultat
+    - je veux savoir mes notes
+- intent: double_diplome
+  examples: |
+    - double diplome
+    - offres de double diplôme
+    - je peux faire un double diplôme?
+    - opportunités d'etudier de faire un double diplôme
+    - qu'est-ce qu'un programme de double diplôme ?
+    - quels sont les avantages d'un programme de double diplôme ?
+    - quels sont les critères d'admissibilité pour un programme de double diplôme
+- intent: certificat
+  examples: |
+    - quelles sont les certifications à esprit
+    - comment obtenir un cerficat?
+    - comment puis-je obtenir un certificat?
+    - certificat esprit
+    - obtenir des certifications a esprit
+- intent: stage
+  examples: |
+    - le stage est il obligatoire?
+    - quels sont les types de stages pour chaque niveau d'etudes
+    - quels sont les documents necessaire pour faire un stage 
+    - comment je peux obtenir les documents necéssaire pour faire un stage
+    - où je peux deposer mon rapport de stage?
+    - stage esprit
+    - stage
+    
+- intent: paiement_par_tranche_fr
+  examples: |
+    - je veux payer en plusieurs fois pour cette commande.
+    - comment je peux payer sur plusieurs tranches
+    - est ce que je peux payer par tranches?
+    - je ne peux pas payer la totalité en une seule fois, est-ce que je peux étaler le paiement ?
+    - paiement par tranche
+    - je veux payer par tranche
+    - est ce que c'est possible de payer par tranches?
+- intent: info_generale_esprit      
+  examples: |
+    - je veux savoir plus de details sur esprit
+    - donne moi une idée générale sur esprit
+    - info generale esprit
+    - je veux avoir des informations générales sur esprit
+    - est ce que tu peux me donner plus d'infromations sur esprit?
+- intent: avantage_esprit_fr      
+  examples: |
+    - pourquoi esprit?
+    - pourquoi choisir esprit?
+    - quelles sont les specificités de esprit
+    - comment esprit se distingue t elle des autres ecoles d'ingenieurs?
+    - avantages esprit
+    - donne moi les avantages d'etudier a esprit
+    - que sont les avantages d etudier a esprit?
+  
+- intent: procedure_inscription_fr
+  examples: |
+    - quels sont les procedures d'inscription?
+    - comment procéder à l'inscription?
+    - quel est le processus d'inscription
+    - comment s'inscrire à esprit?
+    - procedure inscription esprit
+    - s'inscrire a esprit
+    - je veux savoir comment je peux m'inscrire 
 - intent: club_fr
   examples: |
+    - cite-moi les clubs à esprit
+    - y'a t-il des clubs a esprit?
     - quels sont les clubs d'esprit
     - comment rejoindre un club?
     - comment s'inscrire dans les clubs?
@@ -1005,12 +975,10 @@ nlu:
     - je veux des information sur les clubs
     - les clubs
     - liste club
-
-
 - intent: cout_hebergement_fr
   examples: |
-    - quel est le coût d'hébergement ?
-    - le frais d'hébergement 
+    - quel est le coût d'hébergement?
+    - le frais d'hébergement
     - combien coute le foyer?
     - le prix de foyer
     - je veux savoir le coût d'hébergement
@@ -1019,11 +987,12 @@ nlu:
     - quel est le prix de foyer
     - prix hebergement
     - prix foyer
-
+    - a combien s'eleve le prix d'hebergement a esprit
+    - tarif hebergment
 - intent: cout_restauration_fr
   examples: |
-    - quel est le coût de restauration ?
-    - prix restauration 
+    - quel est le coût de restauration?
+    - prix restauration
     - combien coute restauration
     - le prix de restauration
     - je veux savoir le coût de restauration
@@ -1031,71 +1000,63 @@ nlu:
     - combien on paye pour le restaurant 
     - quel est le prix de restaurant
     - combien coute l'inscription dans le restaurant d'esprit
-    - quel est le coût d'inscription dans le restaurant ?
+    - quel est le coût d'inscription dans le restaurant?
     - cout inscription restaurant
-
-
-
-
-
-
+    - a combien s'eleve le prix de restauration a esprit
+    - tarif restauration
+    - tarif inscription restauration
 ############
 - intent: pcr_fr
   examples: |
     - est ce qu'on peut envoyer le test pcr par mail ou on doit le soumettre à l'école?
     - est-il obligatoire de déposer le test pcr à l'école?
-    - doit- on prendre le test pcr à l'école?
+    - doit-on prendre le test pcr à l'école?
     - on peut envoyer le test pcr par mail seulement?
-
-- intent: classe_fr
+    - pcr obligatoire?
+- intent: classe_1ere_fr
   examples: |
-    - on n'arrive pas à connaître nos classes 1ère année  qu'est-ce on doit faire?
-    - comment savoir ma classe 1ére annéé?
+    - on n'arrive pas à connaître nos classes 1ère année qu'est-ce on doit faire?
+    - comment savoir ma classe 1ére année?
     - classe 1ére année
     - oû je trouve ma classe pour 1ére année?
     - comment je trouve à quelle classe je suis affécté?
     - comment demander mon affectation pour les classes de 1ére année?
     - affectation 1ére année
-
-
-
+    - a quelle classe je suis affectée?
 - intent: date_res_fr
   examples: |
-    - quand est-ce que on aura le résultat?
+    - quand est-ce qu'on aura le résultat?
     - c'est quand le résultat?
     - quelle est la date du résultat?
     - date résultat
+    - quand sera la date des resultats?
     - je veux m'informer sur la date du résultat
     - je veux connaître la date du résultat
-
 - intent: valider_module_fr
   examples: |
     - avec un moyenne inférieur à 10, les modules seront validé avec 8 ou 10?
     - note minimale pour valider un module?
     - valider un module
+    - comment valider un module?
+    - condition pour valider un module
     - note nécessaire pour valider un module
     - avec quelle note en valide un module?
-
 - intent: admis_fr
-  examples: |
-    - quelle est la moyenne minimale pour réussir?
-    - condition à satisfaire pour réussir?
-    - conditions de passage en année supérieure
-    - quelles sont les règles de passage en année supérieure?
-    - année supérieure
-    - comment réussir l'année universitaire
-    - avec quelle moyenne on réussi?
-    - les règles pour passer l'année
-    - avec une moyenne de 9.6 et des notes de 9 pour chaque module, on redouble?
-    - avec une moyenne de 9.4 et des notes de 9 pour chaque module, on redouble?
-    - avec une moyenne de 9.5 et des notes de 9 pour chaque module, on redouble?
-    - avec une moyenne de 9.7 et des notes de 9 pour chaque module, on redouble?
-    - est ce qu'on redouble avec une moyenne de 9.6?
-    - est ce qu'on refait l'année avec une moyenne de 9.5?
-    - est ce qu'on redouble avec 9 comme note de chaque module?
-    - quelle est la moyenne requise pour avoir un rachat?
-    - avec quelle moyenne j'aurai le rachat?
-
+  examples:  |
+      - quelle est la moyenne minimale pour réussir?
+      - condition à satisfaire pour réussir?
+      - conditions de passage en année supérieure
+      - quelles sont les règles de passage en année supérieure?
+      - année supérieure
+      - comment réussir l'année universitaire
+      - avec quelle moyenne on réussit?
+      - les règles pour passer l'année
+      - avec une moyenne de {moyenne}, on redouble ?
+      - est ce qu'on redouble avec une moyenne de {moyenne} ?
+      - est ce qu'on refait l'année avec une moyenne de {moyenne} ?
+      - est ce qu'on redouble avec {moyenne} comme moyenne générale ?
+      - quelle est la moyenne requise pour avoir un rachat ?
+      - avec quelle moyenne j'aurai le rachat ?
 - intent: carte_amen_fr
   examples: |
     - quels sont les avantages des cartes bancaires de l'amen bank?
@@ -1106,7 +1067,6 @@ nlu:
     - quelles commodités offre la carte bancaire de amen bank
     - bénéfice carte bancaire amen bank
     - je veux savoir les avantages de la carte bancaire de amen bank
-
 ##############################################
 - intent: double_correction_fr
   examples: |
@@ -1117,7 +1077,8 @@ nlu:
     - procédure de la double correction
     - la double correction   
     - vérification note
-
+    - double correction
+    - comment effectuer une double correction?
 - intent: confirmation_option_fr
   examples: |
     - quand est ce que vous confirmer le choix des options?
@@ -1125,7 +1086,10 @@ nlu:
     - quand on peut savoir le résultat de l'orientation
     - quand on va savoir nos options
     - résultat orientation
-
+    - date option
+    - quand specialite
+    - je veux savoir ma specialite
+    - quand est-ce que je vais savoir ma specialite
 - intent: conseil_classe_fr
   examples: |
     - quand les conseils de classes commencent-ils?
@@ -1134,7 +1098,8 @@ nlu:
     - quand la période de conseil de classe commence
     - période conseil de classes
     - date conseil de classe
-
+    - quand commence les conseils de classe?
+    - conseil de classe
 - intent: credit_fr
   examples: |
     - comment savoir si j'ai encore des crédits?
@@ -1144,7 +1109,9 @@ nlu:
     - comment je peux savoir si j'ai des matiéres a repasser
     - crédit
     - crédits
-
+    - combien de credit?
+    - combien j'ai de credit?
+    - comment savoir mes credits?
 - intent: exemples_rapport_stage_fr
   examples: |
     - comment je peux avoir des exemples de rapport de stage?
@@ -1152,7 +1119,9 @@ nlu:
     - y a t-il des exemples pour un rapport de stage pfe?
     - ou je peux avoir des exemple de rapport de stage?
     - ou je peux trouver les rapoort de stages des anciens étudiants?
-
+    - je veux des rapports de stage
+    - exemple rapport de stage
+    - exemple rapport stage
 - intent: procedure_stage_fr
   examples: |
     - quelle est la procedure pour faire un stage?
@@ -1162,7 +1131,21 @@ nlu:
     - je veux des informations concernant les stages?
     - informations concernant stage
     - procédure de stage
-
+    - que dois je faire pour un stage
+    - comment stage?
+    - que sont les procedures de stage
+    - feuille stage
+    - paperasse de stage
+    - document de stage
+    - formulaire stage
+    - que sont les stages obligatoires?
+    - les stages sont obligatoires?
+    -combien de stage doit-on faire
+    -stage
+    -stage 3eme
+    -stage 1ere
+    -stage pfe
+    -stage 4eme
 #####################
 - intent: obtention_diplome_fr
   examples: |
@@ -1175,7 +1158,6 @@ nlu:
     - avoir diplome
     - obtention diplôme
     - qu'est ce qu'il faut pour obtenir mon diplôme
-
 - intent: absence_examen_fr
   examples: |
     - absence à un examen
@@ -1188,7 +1170,16 @@ nlu:
     - absent à un examen
     - absent examen
     - comment repasser un examen si on s'absente?
-
+    - Que faire si j'ai manqué un examen en raison d'une urgence familiale?
+    - Est-ce qu'une absence à un examen peut être excusée pour une raison autre que médicale?
+    - Peut-on obtenir une note pour un examen manqué en raison d'une raison médicale même si on ne refait pas l'examen?
+    - Comment demander une session de rattrapage pour un examen manqué?
+    - Quelles sont les conséquences d'une absence à un examen final?
+    - Y a-t-il une limite au nombre d'examens que l'on peut manquer en raison de raisons médicales?
+    - Comment obtenir un certificat médical pour une absence à un examen?
+    - Quel est le délai pour fournir un certificat médical en cas d'absence à un examen?
+    - Peut-on manquer un examen pour des raisons professionnelles et demander un rattrapage?
+    - Comment savoir si une absence à un examen peut être justifiée?
 - intent: redoublement_fr
   examples: |
     - quand on redouble?
@@ -1202,18 +1193,30 @@ nlu:
     - si on redouble, doit on assister aux modules validés une autre fois?
     - si on redouble, doit on assister aux modules non validés?
     - si on redouble, doit-on assister aux nouveaux modules introduits dans le programme.
-
-
-
+    -Quelles sont les conditions pour redoubler ?
+    -Comment ça se passe si je dois redoubler ?
+    -Quel est le nombre maximum de redoublements autorisés ?
+    -Si je redouble, est-ce que je dois payer à nouveau les frais de scolarité ?
+    -Si je redouble, est-ce que je garde les notes de l'année précédente ?
+    -Est-ce qu'on peut redoubler une seule matière ou doit-on redoubler l'année entière ?
+    -Est-ce que le redoublement est automatique si on n'a pas validé toutes les matières ?
+    -Quelles sont les conséquences d'un redoublement sur la suite de mon parcours universitaire ?
+    -Est-ce que je peux changer de filière si je redouble ?
+    -Si je redouble, est-ce que je peux passer en année supérieure en même temps que les autres étudiants qui n'ont pas redoublé ?
 - intent: ratt_fr
   examples: |
     - on quoi consiste la session de rattrapage?
     - sous quelles conditions on passe à la session de rattrapage?
     - session de rattrapage
-    - est ce qu'in peut repasser les tps durant la session de rattrapage?
-    - est ce que les projers font l'objet d'un rattrapage?
-  
-
+    - est ce qu'on peut repasser les tps durant la session de rattrapage?
+    - est ce que les projets font l'objet d'un rattrapage?
+    - quand est-ce que la session de rattrapage a lieu ?
+    - quelle est la durée de la session de rattrapage ?
+    - est-ce qu'on doit s'inscrire pour la session de rattrapage ?
+    - est-ce qu'on peut rattraper plusieurs modules durant la session de rattrapage ?
+    - est-ce que la note de la session de rattrapage remplace celle de l'examen initial ?
+    - est-ce que la session de rattrapage est réservée aux étudiants en difficulté ?
+    - est-ce que la session de rattrapage est payante ?
 - intent: annulation_inscription_fr
   examples: |
     - quelle est la procedure d'annulation d'inscription?
@@ -1226,8 +1229,9 @@ nlu:
     - quelle est la date limite pour annuler mon inscription
     - est ce que je peux récupérer les frais d'inscription après l'annulation d'inscription?
     - l'annulation d'inscription est elle remboursable 
-
-
+    - annuler inscription
+    - est-ce que peux annuler mon inscription
+    - remboursement pour annulation inscription
 - intent: regime_etude_fr
   examples: |
     - quelle est la durée de la formation à esprit?
@@ -1239,9 +1243,19 @@ nlu:
     - régime d'études
     - régime des études 
     - durée obtenuation diplome ingénieur
-
-
-
+    - Combien de temps dure une année universitaire à Esprit ?
+    - Est-ce qu'il y a des périodes de stage pendant la formation ?
+    - Est-ce que je peux faire une alternance pendant mes études à Esprit ?
+    - Quelles sont les modalités d'évaluation durant la formation ?
+    - Est-ce qu'il y a des projets à réaliser pendant la formation ?
+    - Est-ce que je peux étudier à temps partiel à Esprit ?
+    - Combien d'heures de cours par semaine sont dispensées en moyenne ?
+    - Est-ce qu'il y a des examens à passer en dehors des sessions d'évaluation ?
+    - Quelle est la charge de travail hebdomadaire estimée pour les étudiants ?
+    - Est-ce que la formation est dispensée en français ou en anglais ?
+    - Y a-t-il des spécialisations disponibles pendant la formation ?
+    - Est-ce que je peux suivre des cours en ligne pendant la formation ?
+    - Comment se passe l'attribution des crédits ECTS pendant la formation ?
 - intent: photo_foyer_fr
   examples: |
     - peux-tu m'envoyer des photos de foyer? 
@@ -1250,17 +1264,14 @@ nlu:
     - photos de foyer esprit
     - photo foyer 
     - photos de foyer
-
 - intent: photo_foyer_externe_fr
   examples: |
     - voici les photos de foyer résidence al amen 
     - voici les photos de foyer résidence al amen :
-
 - intent: photo_foyer_interne_fr
   examples: |
     - voici les photos de foyer esprit (bloc 1) 
     - voici les photos de foyer esprit (bloc 1) :
-
 #######
 - intent: filiere_fr
   examples: |
@@ -1269,7 +1280,7 @@ nlu:
     - je veux me renseigner sur les spécialités 
     - je veux me renseigner sur les options
     - options esprit ingénieur
-    - spédialités esprit ingénieur
+    - spécialités esprit ingénieur
     - donne moi la liste des options de la 4éme année 
     - donne moi la liste des spécialités de la 4éme année
     - quelles options pourrait choisir un étudiant d'ingénieur?
@@ -1283,17 +1294,800 @@ nlu:
     - je veux des détails sur l'orientation
     - je veux des information sur l'orientation
     - comment je peux avoir des informations sur les options disponible?
-
+- intent: applicabilite_formation_fr
+  examples: |
+    -Est-ce que ce que nous apprenons à l'école est applicable dans la vie réelle ?
+    -Est-ce que la formation que nous recevons nous rend directement opérationnels ?
+    -Est-ce que notre formation est adaptée aux tendances du marché de l'emploi ?
+    -À quoi sert de passer autant de temps sur des matières théoriques si elles ne sont pas directement applicables dans la vie professionnelle ?
+    -Comment savoir si notre formation nous rendra opérationnels dès notre entrée sur le marché du travail ?
+    -À quel point notre formation est-elle pertinente par rapport aux exigences du marché du travail ?
+    -Est-ce que notre formation nous prépare suffisamment à la réalité du monde professionnel ?
+    -Est-ce que la théorie enseignée en cours est facilement transposable dans la pratique ?
+    -Comment savoir si notre formation nous permettra de répondre aux besoins de l'entreprise dans laquelle nous travaillerons ?
+    - je peux travailler directement?
+    - facile a trouver un travail apres formation?
+- intent: reconnaissance_diplome_fr
+  examples: |
+    - Comment faire reconnaître mon diplôme à l'étranger ?
+    - Mon diplôme est-il reconnu à l'étranger ?
+    - Comment obtenir la reconnaissance de mon diplôme dans un autre pays ?
+    - Est-ce que je peux travailler à l'étranger avec mon diplôme ?
+    - Comment faire pour que mon diplôme soit reconnu dans un autre pays ?
+    - Quels sont les démarches à suivre pour la reconnaissance de mon diplôme ?
+    - Mon diplôme est-il reconnu par l'Etat ?
+    - Comment savoir si mon diplôme est reconnu à l'étranger ?
+    - Est-ce que la reconnaissance de mon diplôme est automatique dans tous les pays ?
+    - Quelles sont les conditions pour la reconnaissance de mon diplôme à l'étranger ?
+    - mon diplome est reconnu en france?
+    - mon diplome est reconnu en allemagne?
+    - mon diplome est reconnu en europe?
+    - mon diplome est reconnu en etats unis?
+    - mon diplome est reconnu en asie?
+- intent: reduction_premier_fr
+  examples: |
+    - Est-ce qu'il y a des réductions pour les premiers de la classe ?
+    - Comment puis-je bénéficier de la réduction pour les meilleurs de spécialité ?
+    - Les étudiants ayant une bonne moyenne ont-ils des avantages ou des réductions ?
+    - Comment savoir si j'ai droit à la réduction pour les premiers de la classe ?
+    - Comment fonctionne la réduction pour les meilleurs de spécialité ?
+    - Quel est le montant de la réduction pour les étudiants ayant une bonne moyenne ?
+    - reduction
+    - reduction pour frere et soeur
+    - reduction pour premier
+    - reduction premier de specialite
+    - y' a t-il de reductions?
+    - j'ai le droit de reduction
+- intent: administration_fr
+  examples: |
+    - qui est tahar ben lakhdher?
+    - qui est le directeur de esprit
+    - pdg
+    - fondateur esprit
+- intent: partenaires_fr
+  examples: |
+    - partenaire
+    - qui sont les partenaires de esprit
+    - convention
+    - avec qui est sponsorise esprit
+    - avec qui est conventionne esprit
+    - amis de esprit
+- intent: salutation_ar
+  examples: |
+    - aslema
+    - ahla
+    - ahlan
+    - salem 3laykom
+    - salem
+    - salem 3likom
+- intent: remerciement_ar
+  examples: |
+    - aychek 
+    - ifadhlek 
+    - chokran
+    - ikather khirek
+- intent: bye_ar
+  examples: |
+    - beslema
+    - beslema bye 
+    - haya bel slema
+    - bel slema 
+    - haya nkhalik beslema
+    - nwad3ek
+- intent: contact_ar
+  examples: |
+    - noumroukom
+    - noumrou
+    - mailkom
+    - aandkom mail?
+    - aatini mailkom  
+    - a3tini contact mte3kom
+    - chnoua noumroukom
+    - kifech net7asal alikom?
+    - kifech nouslelkom
+    - kifech naba3thelkom
+    - n7eb na7ki m3akom
+    - kifech na7ki m3a lidara
+    - nheb nahki m3a lmoudir
+    - nheb nahki m3a responsable
+- intent: courssoir_ar
+  examples: |
+    - nheb na9ra fel lil?
+    - kifeh na9ra fel lil?
+    - najamch na9ra sbeh 
+    - kifeh aw9at 9raya cours du soir
+    - kifeh 9raya cours du soir
+    - kifeh n9ayed fel cours de soir?
+    - najem n9ayed fel cours de soir?
+    - ahkili 3al cours de soir
+- intent: date_preinscription_ar
+  examples: |
+    - wa9teh najem n9ayed fel site?
+    - wa9teh yet7al el site?
+    - chneya el date de préinscription 3al le site?
+    - nheb n9ayed 3al site
+    - wa9teh ekher ajal bech n9ayed fel site?
+    - wa9teh date pre inscription?
+    - wa9teh ekher date becg n9ayed fel site?
+- intent: mobilite_internationale_ar
+  examples: |
+    - najmou nokhrjou na9raw lbara?
+    - najmou nokhrjou na9raw fel kharej?
+    - najmou nokhrjou na9raw fi france?
+    - najmou nokhrjou na9raw fi allemagne?
+    - najmou nokhrjou na9raw fel europe?
+    - chnouma les opportunités de mobilité ? 
+    - tajem esprit t3aweni bech nokhroj na9ra lbara?
+    - najamchi naamel echange m3a fac okhra lbara?
+    - kifech na9ra a l'etranger 
+    - fama des offres de mobilités?
+    - ahkili 3al mobilité?
+    - lezemni nadfa3 flous lel mobilité?
+- intent: avantage_alternance_ar
+  examples: |
+    - behya l'alternance fi esprit?
+    - kifech na3mel alternance?
+    - fi chnoua tfidni l'alternance
+    - alech naamel alternance
+    - chnoua l'avantage ta3 l'alternance?
+- intent: difference_3A_3B_ar
+  examples: |
+    - chnoua lfar9 bin 3a wel 3b ?
+    - ama khir 3a wala 3b ?
+    - fama far9 bin 3a wel 3b?
+    - nheb na3ref el far9 bin el 3a wel 3b?
+- intent: concours_admission_ar
+  examples: |
+    - kifeh n3adi el concours?
+    - ala chnoua el concours?
+    - ahkili 3al concours
+    - chnoua lezem n3adi becg nete9bel?
+    - fama test lezem n3adih bech nete9bel?
+    - lezemni n3adi haja bech nete9bel?
+- intent: reclamation_confirmation_admission_ar
+  examples: |
+    - aucune confirmation d'admission
+    - majetnich confirmation d'admission
+    - tjini confirmation bech naaref rouhi te9belt wala le?
+    - kifeh naaref rouhi te9belt wala le?
+    - kifeh naaref rouhi te9belt?
+    - majeni hata mail 
+    - mawsolnich mail 
+- intent: reporter_entretien_ar
+  examples: |
+    - nheb reporti entretien? 
+    - nheb n2ajel entretien?
+    - nheb nwakher entretien?
+    - kifeh nwakher entretien?
+    - najamch n3adi entretien fel date
+    - nheb nbadel date entretien mte3i
+    - kifeh nakhtar date jdida pour l'entretien
+    - kifeh nakhtar date jdida lel l'entretien
+    - nheb nbadel el date mta3 l'entretien
+- intent: modalites_paiement_ar 
+  examples: |
+    - kifech nkhales esprit?
+    - kifech nkhales?
+    - chnouma les modalités de paiement?
+    - najam nkhales par tranche?
+    - chnoula les procédure bech nkhales?
+    - te9blou cheques?
+    - te9blou especes?
+    - najam nkhalas en ligne?
+    - najam nkhalas bel chwaya vel chwaya?
+    - nkhalas bel carte?
+- intent: cout_formation_ar
+  examples: |
+    - b9adech el 3am?
+    - 9adeh nkhales?
+    - chnoua nkhales?
+    - 9adeh tetkalef el 9raya?
+    - 9adeh soum el 3am?
+    - 9adeh flous yetkalef el 3am?
+    - b9adeh el 9raya ?
+    - 9adeh 3am fi esprit?
+    - b9adech esprit ?
+    - chnoua soum el 9raya fi esprit?
+- intent: B2_ar
+  examples: |
+    - kifeh naaref andi b2 wala le?
+    - nheb naaref resultat b2
+    - kifech nchouf rouhi khdhit b2 wala le?
+    - aandi b2?
+    - kifech naaref noti taa el b2
+    - wa9teh tahbet note b2?
+    - kifeh na3ref hazit el b2?
+- intent: rentree_ar
+  examples: |
+    - wa9teh date rentree fi esprit ingenieur?
+    - wa9teh date rentree fi esprit ?
+    - wa9teh narj3ou na9raw ?
+    - wa9teh tebda el 9raya?
+    - wa9teh yebda el 3am?
+    - wa9tech el rentrée?
+    - l9raya tabda le 15 wala le 16?
+    - l9raya tabda le 14 wala le 15?
+    - l9raya tabda le 19 wala le 20?
+    - l9raya tabda wa9teh?
+- intent: modalite_ar
+  examples: |
+    - kifech el 9raya sne?
+    - chnoua el modalite ta3 el 9raya sne?
+    - bech na9raw en ligne wala presentiel?
+    - bech na9raw fel fac wala en ligne?
+    - bech na9raw en ligne wala presentiel?
+    - bech na9raw fad wala fae?
+    - kifech el modalite d'enseignement sne?
+- intent: place_ar
+  examples: |
+    - win na9raw charguia wala ghazela?
+    - win ya9raw 5eme annee charguia wala ghazela?
+    - win bech na9raw fel charguia wala fel technopole?
+    - win l9raya sne charguia wala ghazela esprit ingenieur?
+    - win ya9raw classe 5eme sne?
+    - fi ama fac ya9raw el 5eme charguia wala ghazela?
+- intent: inscri_ing_info_ar
+  examples: |
+    - 9rit 9raya okhra najem nodkhol esprit ?
+    - ma aandich licence fel info nheb nodkhol esprit ?
+    - 3andi diplome mahouch teba3 l'informatique najam ntaba3 ingénerie fi esprit?
+    - ma9ritech info najem n9ayed fi esprit ?
+    - 9rit droit najem nodkhol esprit ?
+    - andi licence en chimie najem nodkhol esprit ?   
+- intent: licence_info_ar
+  examples: |
+    - andi licence fel informatique ki nodkhol esprit ama classe nodkhol?
+    - 3andi licence en informatique ama classe nodkhol fi esprit?
+    - andi licence informatique ki n9ayed esprit ama classe i7otouni?
+    - andi licence fel informatique en quelle année nodkhol fi esprit?
+    - andi licence fel informatique kifech l'affectation ta3 el classe fi esprit ?
+    - amalt licence fel informatique ki nodkhol esprit nodkhol 3 eme ?
+    - andi licence fel informatique ki nodkhol esprit nodkhol 1 ere ?
+    - andi licence fel informatique ki nodkhol esprit nodkhol 2 eme ?
+    - andi licence en informatique ki nodkhol esprit nodkhol 4 eme ?
+    - amalt licence fel informatique ki nodkhol esprit nodkhol 3A wala 3B ?
+- intent: alternance_ar
+  examples: |
+    - nheb na3mel altérnance fi esprit?
+    - kifeh na3mel altérnance fi esprit?
+    - nheb na3mel inscription altérnance fi esprit?
+    - chnouma les procédures mta3 altérnance fi esprit?
+    - a3tini des informations 3al altérnance fi esprit?
+    - a7kili 3al altérnance fi esprit?
+    - nheb ntaba3 altérnance fi esprit?
+- intent: admission_ar
+  examples: |
+    - chkoun najem nkalam bech na3ref akther 3al admission?
+    - nheb na3ref akther 3al admission
+    - a7kili 3al admission 
+    - chkoun nkalem à propos l'inscription?
+    - nheb ncontacti el administration lel inscription?
+    - chkoun nkalem responsable te3 inscription?
+    - nheb contact chkoun fel admission
+- intent: inscri_bac_ar
+  examples: |
+    - ena 3andi bac najam n9ayed?
+    - ena ma 3andich bac najam n9ayed?
+    - najam n9ayed wena ma 3andich bac?
+    - lezem ikoun 3andi bac bech n9ayed?
+    - yekhi bac obigatoire bech n9ayed fi esprit?    
+    - yekhi bac nécessaire bech nodkhol esprit?
+    - maghir baccaleaureat najam nodkhol esprit
+    - chkoun yajem yodkhol 1ere année fi esprit?
+    - najam n9ayed maghir bac?
+    - najem naamel inscription w ena maghir bac?
+- intent: note_ar
+  examples: |
+    - kifech na3ref noteti?
+    - win najem nchouf les notes mte3i?
+    - najam nchouf notet? 
+    - nheb na3ref noteti
+    - nheb nchouf noteti
+    - kifeh naaref resultat mte3i
+    - kifeh naaref nja7t wala le
+    - nja7t?
+    - najam nchouf rouhi ja7t wala le?
+    - noteti nal9ahom 3al site?
+    - kifeh nchouf notet session princiale?
+    - kifeh nchouf notet session controle?
+- intent: double_diplome_ar
+  examples: |
+    - fama double diplome fi esprit ingenieur?
+    - kifeh naamel double diplome m3a fac fi france?
+    - najem na3mel double diplome?
+    - fama chance bech naamel double diplomation?
+    - chnoua maaneha double diplome ?
+    - chnouma les avantages ta3 double diplome?
+    - chnoua lezem bech n9ayed fi double diplome esprit?
+- intent: certificat_ar
+  examples: |
+    - chnouma les certifs fi esprit?
+    - chnouma les certificats fi esprit?
+    - fama des certificats fi esprit?
+    - nheb naamel certificats fi esprit?
+    - fama certificat ccna ?
+    - kifeh nsartef fi esprit?
+    - nheb n9ayed naamel des certifs fi esprit?
+- intent: stage_ar
+  examples: |
+    - stage obligatoire fi esprit?
+    - yekhi stage obligatoire fi esprit?
+    - chnouma les stages fi esprit?
+    - fi ama 3am stage obligatoire?
+    - stage 1ere obligatoire?
+    - stage 2eme obligatoire?
+    - stage 3eme obligatoire?
+    - stage 4eme obligatoire?
+    - stage 5eme obligatoire? 
+    - chnouma les documents necéssaire lel stage?
+    - win ndeposi wra9 stage?
+    - win n7ot wra9 stage?
+    - yekhi journal de stage obligatoire?
+    - win n7ot attestation de stage obligatoire?
+- intent: info_generale_esprit_ar      
+  examples: |
+    - nheb nzid na3ref ala esprit
+    - ahkili ala esprit
+    - atini des informations ala esprit
+    - chkounhi esprit
+    - chneya heya esprit?
+    - behya esprit?
+    - ma3roufa esprit?
+- intent: avantage_esprit_ar      
+  examples: |
+      - chnouma les avantages ki nakra f esprit?
+      - chnia nerbah ki nakra f esprit
+      - alech esprit?
+      - 3lech esprit?
+      - alech nakhtar f esprit?
+      - 3lech ne5tar esprit?
+      - 3lech bech na9ra f esprit
+      - chnouma les specificités mtaa esprit
+      - chnia houma les avantages f esprit
+      - kifeh esprit khir mel les ecoles d'ingenieurs lokhrin?
+      - a3tini les avantages mta kraya f esprit
+      - chnia les avantages ki nakra f esprit
+      - 3lech esprit
+      - alech esprit
+      - kifech tefrak esprit ala les facs lokhrin
+      - kifech tefra9 esprit ala les facs lokhrin
+      - chnia avantages ki nakra f esprit?
+  
+- intent: procedure_inscription_ar
+  examples: |
+    - chnouma les procedures mta l inscription
+    - chneya houma les procedures mta l inscription
+    - chnia na3mel bech n9ayed
+    - kifeh n9ayed 
+    - kifech nkayed
+    - kifeh tsir l inscription f esprit
+    - ta9yid f esprit
+    - nheb nkayed
+    - n7eb n9ayed
+    - aatini les procedures mtaa l inscription
+    - chnia le processus d'inscription
+    - kifech tsir l inscription 
+    - chnia les procedures d inscription
+    - nheb naref kifeh namel inscription
+    - tnajm tkoli kifeh namel l inscription
+- intent: club_ar
+  examples: |
+    - atini asemi les clubs f esprit
+    - fama des clubs f esprit?
+    - enehom les clubs li f esprit
+    - chnia fama clubs f esprit?
+    - chnia fama clubet f esprit
+    - kifeh nodkhol f club
+    - kifeh nod5ol f club
+    - kifech n9ayed f club
+    - kifech n9ayed f nedi
+    - a3tini lista mta3 les clubs
+    - listet clubs 
+    - listet clubet
+    - ahkili ala les clubs
+    - a7kili ala les clubs 
+    - a3tini des informations ala les clubs
+    - a3tini ma3loumet ala les clubs
+    - listet clubs
+- intent: cout_hebergement_ar
+  examples: |
+    - kadech coût mtaa hébergement?
+    - kadech tetkalef sokna
+    - 9adech tetkalef sokna
+    - chnouma les frais d'hébergement
+    - bkadeh l foyer
+    - b3adeh l foyer
+    - 3adech yetkalef l foyer
+    - kadeh tetkalef l sokna fl foyer
+    - soum l foyer
+    - a3tini soum l foyer
+    - nheb naaref coût d'hébergement
+    - kadeh coût de foyer 
+    - kadech coût de foyer 
+    - quel est le coût d'hebergement
+    - kadech soum l foyer
+    - kadeh prix hebergement
+    - kadech prix hebergement
+    - chnouma les tarifs hebergment
+    - chnia houma les tarifs hebergment
+- intent: cout_restauration_ar
+  examples: |
+    - chnia l coût de restauration
+    - soum restauration
+    - kadeh tetkalef restauration
+    - b9adeh tetkalef restauration
+    - nheb naref l coût de restauration
+    - n7eb na3ref 9adeh l cout de restauration
+    - nheb naaref kadeh l cout de restauration
+    - ib9adeh il restauration
+    - tnajem taatini l cout de restauration
+    - tnajem ta3tini l cout de restauration
+    - kadeh nkhales lel restaurant 
+    - 9adeh n5ales lel restaurant 
+    - b9adeh l mekla
+    - bkadeh tetkalef l mekla
+    - soum restaurant
+    - a3tini soum l restaurant
+    - b9adeh tetkalef l'inscription fel restaurant
+    - bkadeh nkayed fel restaurant
+    - b9adeh yetkalef l ftour
+    - chnouma les tarifs restauration
+    - chnia houma tarifs restauration 
+    - a3tini tarifs restauration 
+- intent: pcr_ar
+  examples: |
+    - nabaath test pcr par mail wala nhezou lel fac
+    - nab3ath test pcr par mail wala nhezou lel fac
+    - nab3eth test pcr par mail wala nhezou lel fac
+    - najem nabath test pcr par mail wala lezem nhezou lel fac
+    - nejem nabath test pcr par mail wala lezem nhezou lel fac
+    - mislch nabath test pcr par mail
+    - aadi ken nabaath test pcr 
+    - 3adi nabaath test pcr 3al mail 
+    - lezem nhot test pcr fel fac
+    - lezem nhez test pcr lel fac
+    - najam nabath l test pcr al mail kahaw
+- intent: classe_1ere_ar
+  examples: |
+    - kifech najem naaref classi mtaa l 1ere
+    - kifech najem na3ref classi mta3 l 1ere
+    - nheb naref classi mtaa l 1ere chnaamel
+    - nheb na3ref classi mtaa l 1ere chna3mel
+    - classi 1ére année
+    - win najem naaref classi mta l 1ere
+    - fin enajem nalka classi mta l 1ere
+    - kifeh najem naref ena f ana classe 1ere
+    - f ana classe 1ere nakra 
+    - kifech najem naref l classe 1ere li ena feha
+    - ena tebaa ana classe 1ere nakra
+- intent: date_res_ar
+  examples: |
+    - waktech l résultat?
+    - wakteh l resultat
+    - wakteh tahbet l resultat
+    - wa9tech tahbet l resultat
+    - wa9tech l resultat
+    - anehi date li tahbet feha l resultat
+    - a3tini date li tahbet feha l resultat
+    - date mta3 résultat
+    - nheb naaref date l resultat
+    - n7eb na3erf date l resultat
+- intent: valider_module_ar
+  examples: |
+    - kifech nvaled module
+    - kifeh nvalled module
+    - kifeh najem nhez module
+    - b moyenne akal men 10, les modules yetvaldou b 8 wala 10
+    - b 9adeh yatla3 module
+    - note minimale bech nvalidi module
+    - note minimale bech nvalled module
+    - nvalidi un module
+    - condition bech nvaled un module
+    - condition bech nvalidi un module
+    - note lezma bech nvalidi un module
+    - chnia note li najem nvalidi beha module
+    - chnia note li najem nhez beha module
+- intent: admis_ar
+  examples:  |
+      - kadech l moyenne minimale bech nenjah
+      - kadeh l moyenne minimale bech nanjah
+      - kadeh lezmni bech nanjah
+      - chnouma les conditions lezmin bech nanjah
+      - chnia houma les conditions lezmin bech nanjah
+      - 9adeh l moyenne minimale bech nanjah
+      - kadeh l moyenne minimale bech nanjah
+      - kadech lezm bech nanjah
+      - condition à satisfaire bech nanjah
+      - kadeh lezm njib bech nanjah
+      - 9adech lezemni njib bech nanja7
+      - n7eb nanja7 9adeh lezemni moyenne
+      - kifeh nanjah fel année universitaire
+      - bkadeh moyenne nanjah
+      - b9adeh moyenne nanja7
+      - ken njib {moyenne} ndoubel ?
+      - ken njib {moyenne} naawed l aam ?
+      - ken njib {moyenne} n3awed l 3am ?
+      - n3awed l3am b {moyenne} moyenne ?
+      - naawed laam b {moyenne} moyenne ?
+      - ndoubel b {moyenne} moyenne ?
+      - ndoubel ken njib {moyenne} moyenne generale
+- intent: carte_amen_ar
+  examples: |
+    - chnouma les avantages mtaa cartet amen bank
+    - chnia houma les avantages mtaa cartet amen bank
+    - a3tini les avantages ki na3mel carta amen bank
+    - 3lech na3mel f carta amen bank
+    - chnia izidni ken naamel carte amen bank
+    - alech nakhtar f carte bancaire mtaa amen bank
+    - chnia nerbah ken namel carte amen bank
+    - chnia nerbah ken namel cartet amen bank
+    - chnia l plus li f cartet amen bank
+    - avantages carte bancaire mtaa amen bank
+    - avantages carte bancaire mta3 amen bank
+    - chnia l bénéfice mtaa carte bancaire de amen bank
+    - chnia l bénéfice mta3 carte bancaire amen bank
+    - privilège cartet amen bank
+    - privilège carte bancaire mtaa amen bank
+    - privilège carte bancaire mta3 amen bank
+    - nheb naref les avantages mtaa carte bancaire amen bank
+    - n7eb na3ref les avantages mta3 carte bancaire amen bank
+- intent: double_correction_ar
+  examples: |
+    - kifech namel double correction
+    - kifeh namel double correction
+    - chnouma les procedures bech naamel double correction
+    - chnia houma les procedures bech naamel double correction
+    - a3tini les procedures bech tsir double correction
+    - kifech tsir l double correction
+    - kifeh tsir double correction
+    - kifh naaml double correction
+    - n7eb na3mel double correction
+    - nheb naamel double correction
+    - kifech nverifi note
+    - kifeh nverifi note
+    - kifech nthabet men note
+    - kifeh nthabet men note
+    - nheb naadi demande mtaa verification l note
+    - n7eb n3adi demande mta3 verification l note
+- intent: confirmation_option_ar
+  examples: |
+    - bech tconfirmiw l choix mtaa les options ?
+    - kifeh naaref resultat l orientation
+    - kifech naaref resultat l orientation
+    - nheb naaref specialite mtei
+    - n7eb na3ref specialite mte3i
+    - kifeh naaref specialite mtei
+    - kifech naaref specialite mtei 
+    - kifeh na3ref specialite mte3i
+    - kifech na3ref specialite mte3i 
+    - wa9teh tconfirmiw choix mta3 option?
+    - wakteh specialite
+    - wa9teh specialite
+    - nheb specialite mtei
+    - n7eb 3al specialite mte3i
+- intent: conseil_classe_ar
+  examples: |
+    - wakteh yabda conseil de classes
+    - wa9teh yabda conseil de classes
+    - wa9teh isir conseil de classes
+    - wakteh isir conseil de classes
+    - wakteh l periode mtaa l conseil de classes
+    - wa9teh l periode mta3 l conseil de classes
+    - a3tini date mta3 conseil de classes
+    - aatini date mtaa conseil de classes
+    - enehi date mta3 conseil de classes
+- intent: credit_ar
+  examples: |
+    - kifeh naaref ken mezel andi credits wala le
+    - kifech na3ref mezel andi credits wala le
+    - kifeh naaref aandi credit wala le
+    - n7eb na3ref ken andi credit wala le
+    - nheb naarf ken andi credit wala el
+    - kifeh najem naaref andi credit wala le
+    - kifech najm nchouf lista mta les credits 
+    - kifech najm nchouf liste des credits
+    - kifeh najem naaref les matieres li bech naawedhom
+    - kifeh najem naaref les matieres li bech naawed naadihom
+    - nheb naaref les matieres li bech naawed naadihom
+    - n7eb na3ref les matieres li bech n3awed n3adihom
+    - kifeh naaref ken andi des matieres bech naawedhom wala le
+    - kifeh na3ref ken 3andi des matieres bech n3awedhom wala le
+    - 9adeh 3andi men credit
+    - kadeh andi men credit
+- intent: exemples_rapport_stage_ar
+  examples: |
+    - nheb ala des exemples mtaa rapport de stage
+    - n7eb ala exemples mta3 rapport de stage
+    - ta3tini des exemples ala rapport de stage
+    - nheb nekhou fekra al rapport de stage
+    - n7eb ne5ou fekra al rapport de stage
+    - aatini des exemples al rapport de stage
+    - fama des exemples ala rapport de stage? 
+    - andkom des exemples ala rapport de stage?
+    - 3andkom des exemples ala rapport de stage?
+    - win najem nalka des exemples ala rapport de stage?
+    - win najem nal9a des exemples ala rapport de stage?
+    - win nejem nal9a des exemples ala rapport de stage?
+- intent: procedure_stage_ar
+  examples: |
+    - chnouma les procedures bech namel stage
+    - chnia houma les procedures bech namel stage
+    - chnouma les procedures bech na3mel stage
+    - chnia houma les procedures bech na3mel stage
+    - kifeh najem namel stage
+    - kifech najem naamel stage
+    - chnia les etapes bech namel stage
+    - a3tini les etapes bch na3mel stage
+    - nheb ala maaloumet al stage
+    - n7eb ala ma3loumet al stage
+    - nheb ala des informations concernant les stages
+- intent: obtention_diplome_ar
+  examples: |
+    - chnia les conditions bech nekhou diplome
+    - chnouma les conditions bech nekhou diplome
+    - kifeh najem nekhou diplome
+    - kifeh najem ne5ou diplome
+    - chnia lezem naamel bech nekhou diplome
+    - chnia lezem na3mek bech ne5ou diplome
+    - nheb nekhou diplome
+    - n7eb ne5ou diplome
+- intent: absence_examen_ar
+  examples: |
+    - kifeh naawed naadi examen
+    - ken njib justificatif najem naawed naadi examen
+    - ghiyeb ala examen
+    - ghebet ala examen
+    - kifeh naawed examen ki nghib 
+    - kifech n3awed n3adi examen
+    - ken njib justificatif najem n3awed n3adi examen
+    - 8iyeb ala examen
+    - 8ebet ala examen
+    - kifeh n3awed examen ki n8ib 
+- intent: redoublement_ar
+  examples: |
+    - kifeh najem ndoubel
+    - wakteh ndoubel
+    - chnouma les conditions bech ndoubel
+    - kadeh men mara najem ndoubel f esprit ingénieur
+    - wa9teh ndoubel
+    - chnia les conditions bech ndoubel
+    - 9adeh men mara najem ndoubel f esprit ingenieur
     
-
-- intent: lien_doc_fr
+- intent: ratt_ar
   examples: |
-    - voici le lien de la documentation 
-    - voici le lien de la documentation :
-
-- intent: lien_video_fr
+    - kifeh tsir session de rattrapage
+    - chnia les conditions bech naadi f session de rattrapage
+    - est ce que lezm nkayed bech naadi f session
+    - tzid flous bch taadi f session de rattrapage
+    - yekhi session de rattrapage bel flous
+- intent: annulation_inscription_ar
   examples: |
-    - voici le lien de la vidéo 
-    - voici le lien de la vidéo :
-
-
+    - kifeh najem nannuli l inscription
+    - yekhi najem nannuli l inscription
+    - najem nannuli l inscription
+    - fama remboursement ki nannuli l inscri
+    - najem nrajaa les frais d inscri ken nannuli l inscription
+- intent: regime_etude_ar
+  examples: |
+    - kadeh tokod l formation
+    - 9adeh to93od l formation 
+    - nheb naref regime l kraya
+    - kifeh regime l kraya
+    - kadeh men aam thebli bech nekhou diplome
+    - chnia l regime d etudes
+- intent: photo_foyer_ar
+  examples: |
+    - tnajem tabathli tsawer foyer
+    - tnajem tab3athli tsawer foyer
+    - tsawer foyer
+    - nheb ala tsawer foyer esprit
+    - nheb nchouf l foyer
+    - nheb nra l foyer kifeh
+    - n7eb ala tsawer foyer esprit
+    - n7eb nchouf l foyer
+    - n7eb nra l foyer kifeh
+- intent: filiere_ar
+  examples: |
+    - chnowa famma des specialités fel esprit en ingenieurie?
+    - nhebb nas2el aal specialités fel esprit
+    - nhebb na3ref  les options lmawjoudine
+    - options esprit ingénieur
+    - spécialités esprit ingénieur
+    - a3tini lista mta3 les options mta3 4éme année 
+    - a3tini lista mta3 les spécialités de la 4éme année
+    -chnouma les filieres elli najem nekhtarhom fel 4eme ?
+    - chnoumma les options elli ynajem yekhtarhoum etudiant fel esprit ingenieur?
+    - chnoumma specialites elli ynajem yekhtarhoum etudiant fel esprit ingenieur?
+    - options
+    - spécialités
+    - lista mta3 les options
+    - lista mta3 les spécialités
+    - nheb na3ref les options lmawjoudine fe cycle ingénieur
+    - chnouma les fileres disponible?
+    - nheb naaref hajet 3al orientation kifeh tsir
+    - nheb ma3loumet 3al orientation 
+    - nheb ma3loumet 3al tawjih mel 4ème 
+    - kifeh na3ref akther aal les options el mawjoudine fel esprit?
+- intent: applicabilite_formation_ar
+  examples: |
+    - elli na9rawouh fel ecole applicable fel vie reelle mteena?
+    - elli na9rawouh fel ecole nest7a9ouh fel vie reelle mteena?
+    - el formation mteena pratique lel vie réelle ?
+    - el formation mta3 l'esptit t3awena fel khedma nhar ekher ?
+    - el formation mta3 esprit adaptable marché de l'emploi ?
+    - bel formation mta3 esprit najem nal9a khedma ?
+    - aalech n3addi barcha wa9t fi des matières theoriques wa9telli ma nest7a9elhech fel pratique ?
+    - kifeh na3ref enou formation l'esprit bech bech t3anni ki nabda nekhdem ?
+    - formation l'esprit t3aweni fel les taches elli bech yo3rdhouni fel khedma ?
+    - el formation mta3 l'esprit t7adhrana bel behi lel khedma w lvie professionnelle ?
+    - el na9rawouh theorique sehel bech ykoun applicable fel pratique ?
+    - kifeh na3ref ennou lformation mt3i bech tkoun compatible heya wel besoin mtaa les entreprises elli bech nekhdem fihom ?
+    - najem nekhdem doubelli netkharej?
+    - sehel bech nal9a khedma ba3d ma nkammel ?
+    
+- intent: reconnaissance_diplome_ar
+  examples: |
+    - kifeh yesta3rfouli be diplome mte3i lbarra  ?
+    - kifeh yesta3rfouli be diplome mte3i fel 5arej 
+    - diplome mte3 l'esprit meta3rfine bih fel 5arej ?
+    - kifeh nrod diplome mte3i mesta3ref bih labrra ?
+    - najem nekhdem lbarra be bdiplome l'esprit ?
+    - chnowa na3mel bech nrod diplomi mesta3rfine bih fel 5arej ?
+    - chnouma el 7ajet elli lezm na3malhom bech nrod diplomi mesta3ref bih lbarra ?
+    - edawla mesta3rfa bdiplome l'esprit ?
+    - tounes mesta3rfa bdiplome l'esprit ?
+    - l3imeda mesta3rfa bdiplome l'esprit ?
+    - kifeh na3ref enou diplomi mesta3rfine bih lbarra ?
+    - diplomi mesta3fine bih automatiquement lbarra ?
+    - chnouma houma les conditions lezmine bech diplomi ukoun mesta3ref bih lbarra ?
+    - diplome esprit mestarfine bih en france?
+    - diplome esprit mestarfine bih  fi allemagne?
+    - diplome esprit mestarfine bih fel europe?
+    - diplome esprit mestarfine bih fel etats unis?
+    - diplome esprit mestarfine bih  fel asie?
+- intent: reduction_premier_ar
+  examples: |
+    - lwela mta3 les classes 3andhom reduction walle ?
+    - kifech najem nekhou reduction la7sen les specialités? 
+    - tlemdha elli aandhom moyenne behi ye5dhou reduction ?
+    - kidefh naaref ena najem nekhou reduction mta3 loulani mta3 lclasse walle ?
+    - kifech reduction mta3 les meilleurs specialités?
+    - 9adeh yon9os lel loulanine mta3 lclasse ?
+    - reduction
+    - remise
+    - reduction pour frere et soeur
+    - reduction lel khwet
+    - reduction lel loulanine mtaa lclasse
+    - reduction specialite loula
+    - famma reductions?
+    - najem nekhou reduction?
+- intent: administration_ar
+  examples: |
+    - chkoun tahar ben lakhdher?
+    - chkoun directeur  esprit?
+    - chkoun moudir esprit
+    - pdg
+    - chkoun aamal esprit esprit
+- intent: partenaires_ar
+  examples: |
+    - chkounhom les partenaires de esprit
+    - convention 
+    - atini liste des partenaires mta esprit
+    - charaka
+    - chkoun ysponsorisi fel esprit
+    - maa chkoun esprit aamla conventions
+    - m3a chkoun esprit 3amla convention
+    
+- intent: raven
+  examples: |
+    - what is a university 
+    - what is a uni 
+    - what is a degree
+    - what is a engineering
+    - what is a studying
+    - what is abachlor
+    - c'est quoi une université ?
+    - c'est quoi ingenieurie ?
+    - c'est quoi l'intelligence artificielle ?
+    - c'est quoi l'IA ? 
+    
