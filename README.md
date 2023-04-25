@@ -8,7 +8,8 @@
 This is a chatbot designed to answer questions about Esprit University. It was created by a group of Esprit's Students called INNOVISION using the [Rasa](https://rasa.com/) framework.
 
 The unindexed intents are generated using the [RWKV-4-Raven](https://github.com/BlinkDL/RWKV-LM) 
-check johanwind explanations about RWKV [HERE](https://johanwind.github.io/2023/03/23/rwkv_details.html)
+
+Check johanwind explanations about RWKV [HERE](https://johanwind.github.io/2023/03/23/rwkv_details.html)
 ## Prerequirments
 Python 3.4+
 Virtualenv
