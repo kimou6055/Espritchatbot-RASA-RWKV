@@ -1,9 +1,7 @@
-
 <div style="display:flex; justify-content:space-between;">
-  <img src="./assets/esprit.png" alt="ESPRIT" style="float:left">
-  <img src="./assets/INNOVISION.png" alt="INNOVISION" style="float:right">
+  <img src="./assets/esprit.png" alt="ESPRIT" style="float:left; width:50%; height:auto;">
+  <img src="./assets/INNOVISION.png" alt="INNOVISION" style="float:right; width:50%; height:auto;">
 </div>
-
 
 
 ## Espritchatbot V1.1
