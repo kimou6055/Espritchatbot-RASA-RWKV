@@ -1,7 +1,9 @@
 
-![ESPRIT](./assets/esprit.png)
+<div style="display:flex; justify-content:space-between;">
+  <img src="./assets/esprit.png" alt="ESPRIT" style="float:left">
+  <img src="./assets/INNOVISION.png" alt="INNOVISION" style="float:right">
+</div>
 
-![INNOVISION](./assets/INNOVISION.png)
 
 
 ## Espritchatbot V1.1
