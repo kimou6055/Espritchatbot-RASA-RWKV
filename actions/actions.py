@@ -22,9 +22,9 @@ class GenerateResponse(Action):
         self.gpu_h = nvmlDeviceGetHandleByIndex(0)
         self.ctx_limit = 1024
         #for local
-        #self.model = RWKV(model=current_path+'/RWKV-4-Raven-7B-v10-Eng99%-Other1%-20230418-ctx8192', strategy='cuda:0 fp16i8 *20+ -> cpu fp32')
+        self.model = RWKV(model=current_path+'/RWKV-4-Raven-7B-v10-Eng99%-Other1%-20230418-ctx8192', strategy='cuda:0 fp16i8 *20+ -> cpu fp32')
         #for kaggle jupyter
-        self.model = RWKV(model=current_path+'/RWKV-4-Raven-7B-v11x-Eng99%-Other1%-20230429-ctx8192', strategy='fp16')
+        #self.model = RWKV(model=current_path+'/RWKV-4-Raven-7B-v11x-Eng99%-Other1%-20230429-ctx8192', strategy='fp16')
         self.pipeline = PIPELINE(self.model, current_path+'/20B_tokenizer.json')
         
     def generate_prompt(self, instruction, input=None):
