@@ -1,4 +1,4 @@
-<img width='1200' src="https://miro.medium.com/v2/resize:fit:1400/1*iGdFJTHMIG79N2HChWaooQ.gif" alt="kimou6055" /></a> 
+<img width='800' src="https://miro.medium.com/v2/resize:fit:1400/1*iGdFJTHMIG79N2HChWaooQ.gif" alt="kimou6055" /></a> 
 
 <img width='400' src="./assets/esprit.png" alt="kimou6055" /></a> 
 <img width='400' src="./assets/INNOVISION.png" alt="kimou6055" /></a> 
