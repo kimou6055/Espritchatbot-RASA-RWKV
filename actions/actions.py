@@ -4,16 +4,32 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from langdetect import detect
 from translate import Translator
-from rwkv.model import RWKV
-from rwkv.utils import PIPELINE, PIPELINE_ARGS
+from multiprocessing import Queue
+
 from pynvml import *
 import torch,gc
 current_path = os.path.dirname(os.path.abspath(__file__))
 
 # set these before import RWKV
 os.environ['RWKV_JIT_ON'] = '1'
-os.environ["RWKV_CUDA_ON"] = '0' # '1' to compile CUDA kernel (10x faster), requires c++ compiler & cuda libraries
+os.environ["RWKV_CUDA_ON"] = '1' # '1' to compile CUDA kernel (10x faster), requires c++ compiler & cuda libraries
 
+
+# Before turning RWKV_CUDA_ON = 1 make sure to install CUDA and do : 
+# Linux : 
+# export PATH=/usr/local/cuda/bin:$PATH
+# export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+# Windows : 
+# Install VS2022 build tools (https://aka.ms/vs/17/release/vs_BuildTools.exe select Desktop C++). Reinstall CUDA 12.x (install VC++ extensions)
+
+
+from rwkv.model import RWKV
+from rwkv.utils import PIPELINE, PIPELINE_ARGS
+
+torch.backends.cudnn.benchmark = True
+torch.backends.cudnn.allow_tf32 = True
+torch.backends.cuda.matmul.allow_tf32 = True
+CUDA_LAUNCH_BLOCKING=1
 
 class GenerateResponse(Action):
     
@@ -21,17 +37,17 @@ class GenerateResponse(Action):
         nvmlInit()
         self.gpu_h = nvmlDeviceGetHandleByIndex(0)
         self.ctx_limit = 1024
-        #for local
+        #self.ctx_limit = 512
         #self.model = RWKV(model=current_path+'/RWKV-4-Raven-7B-v10-Eng99%-Other1%-20230418-ctx8192', strategy='cuda:0 fp16i8 *20+ -> cpu fp32')
-        #for kaggle jupyter
-        self.model = RWKV(model=current_path+'/RWKV-4-Raven-7B-v11x-Eng99%-Other1%-20230429-ctx8192', strategy='fp16')
+        self.model = RWKV(model=current_path+'/RWKV-4-Raven-7B-v10-Eng99%-Other1%-20230418-ctx8192', strategy='cuda fp16 *12 -> cuda fp16i8 *1 -> cpu fp32')
+
         self.pipeline = PIPELINE(self.model, current_path+'/20B_tokenizer.json')
         
     def generate_prompt(self, instruction, input=None):
         instruction = instruction.strip().replace('\r\n','\n').replace('\n\n','\n')
         input = input.strip().replace('\r\n','\n').replace('\n\n','\n')
         if input:
-            return f"""Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
+            return f"""Below is an instruction that describes a task, paired with an input that provides further context. Write a short response that appropriately completes the request.
 
             # Instruction:
             {instruction}
@@ -42,7 +58,7 @@ class GenerateResponse(Action):
             # Response:
             """
         else:
-            return f"""Below is an instruction that describes a task. Write a response that appropriately completes the request.
+            return f"""Below is an instruction that describes a task. Write a short response that appropriately completes the request.
 
             # Instruction:
             {instruction}
@@ -97,6 +113,10 @@ class GenerateResponse(Action):
     def name(self) -> Text:
         return "action_raven_generate_text"
 
+    async def run_rwkv_process(self, queue: Queue, user_message, input):
+        result = list(self.evaluate(user_message, input, 250, 0.4, 0.7, 0.1, 0.1))
+        queue.put(result)
+        
     async def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
@@ -116,8 +136,9 @@ class GenerateResponse(Action):
             def my_print(s):
              print(s, end='', flush=True)
              
-            input = "You are a university advisor chatbot and you will only respond to questions about universities and nothing else"
-            output = self.evaluate(user_message, input, 70, 0.4, 0.7, 0.1, 0.1)
+            input = "You are a university advisor chatbot and you will only respond to questions about universities and nothing else. Make a 20 words sentence."
+            
+            output = self.evaluate(user_message, input, 250, 0.4, 0.7, 0.1, 0.1)
 
             for value in output:
                 print(value)
