@@ -5,7 +5,7 @@ from rasa_sdk.executor import CollectingDispatcher
 from langdetect import detect
 from translate import Translator
 from multiprocessing import Queue
-
+import re
 from pynvml import *
 import torch,gc
 current_path = os.path.dirname(os.path.abspath(__file__))
@@ -123,6 +123,8 @@ class GenerateResponse(Action):
 
         # Get the user's message from the tracker
         user_message = tracker.latest_message.get('text')
+        if not user_message or not re.search('[a-zA-Z]', user_message):
+            return []
         # Detect the language of the text
         lang = detect(user_message)
 
