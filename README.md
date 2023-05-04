@@ -1,6 +1,6 @@
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*iGdFJTHMIG79N2HChWaooQ.gif" alt="kimou6055" /></a> 
-<img  align="right" width='400' src="./assets/esprit.png" alt="kimou6055" /></a> 
-<img  align="left" width='400' src="./assets/INNOVISION.png" alt="kimou6055" /></a> 
+<img   width='400' src="./assets/esprit.png" alt="kimou6055" /></a> 
+<img   width='400' src="./assets/INNOVISION.png" alt="kimou6055" /></a> 
 
 ## Espritchatbot V1.1
 This is a chatbot designed to answer questions about Esprit University. It was created by a group of Esprit's Students called INNOVISION using the [Rasa](https://rasa.com/) framework.
