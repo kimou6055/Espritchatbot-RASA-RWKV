@@ -1,0 +1,7 @@
+rasa
+langdetect
+translate
+pynvml
+torch
+gc
+rwkv

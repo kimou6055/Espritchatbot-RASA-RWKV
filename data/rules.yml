@@ -14,3 +14,8 @@ rules:
 #  - intent: fields_fr
 #  - action: utter_fields_fr
 #  - action: action_service_fr
+
+- rule: fallback
+  steps:
+    - intent: nlu_fallback
+    - action: action_raven_generate_text
