@@ -1,6 +1,6 @@
-<img src="https://miro.medium.com/v2/resize:fit:1400/1*iGdFJTHMIG79N2HChWaooQ.gif" alt="kimou6055" /></a> 
-<img  align="right" width='400' src="./assets/esprit.png" alt="kimou6055" /></a> 
-<img  align="left" width='400' src="./assets/INNOVISION.png" alt="kimou6055" /></a> 
+<img  width='805' src="https://miro.medium.com/v2/resize:fit:1400/1*iGdFJTHMIG79N2HChWaooQ.gif" alt="kimou6055" /></a> 
+<img   width='400' src="./assets/esprit.png" alt="kimou6055" /></a> 
+<img   width='400' src="./assets/INNOVISION.png" alt="kimou6055" /></a> 
 
 ## Espritchatbot V1.1
 This is a chatbot designed to answer questions about Esprit University. It was created by a group of Esprit's Students called INNOVISION using the [Rasa](https://rasa.com/) framework.
@@ -48,25 +48,32 @@ source myenv/bin/activate
 Make sure you have Python 3.x installed on your machine. You can install the required Python libraries by running:
 
 ```
-pip install -r requirements.txt
-
+pip install rasa
+pip install langdetect
+pip install translate
+pip install pynvml
+pip install rwkv
+pip install ninja 
 ```
-
+You need to install torch with CUDA 
+```
+pip3 install torch(version)+cu(CUDA version) torchvision(version)+cu(CUDA version) torchaudio --index-url https://download.pytorch.org/whl/cu117
+```
 Updgrade the RWKV-4 package : 
 ```
 pip install rwkv --upgrade
 
 ```
 
-open the actions folder and drop the [RWKV-4-Raven-7B-V10 model](https://cdn-lfs.huggingface.co/repos/41/55/4155c7aaff64e0f4b926df1a8fff201f8ee3653c39ba67b31e4973ae97828633/5c50ad861a16267ec45853bad106b6f6975c49f66e27fe2b01d555834be88492?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27RWKV-4-Raven-7B-v10-Eng99%2525-Other1%2525-20230418-ctx8192.pth%3B+filename%3D%22RWKV-4-Raven-7B-v10-Eng99%25-Other1%25-20230418-ctx8192.pth%22%3B&Expires=1682535932&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4tbGZzLmh1Z2dpbmdmYWNlLmNvL3JlcG9zLzQxLzU1LzQxNTVjN2FhZmY2NGUwZjRiOTI2ZGYxYThmZmYyMDFmOGVlMzY1M2MzOWJhNjdiMzFlNDk3M2FlOTc4Mjg2MzMvNWM1MGFkODYxYTE2MjY3ZWM0NTg1M2JhZDEwNmI2ZjY5NzVjNDlmNjZlMjdmZTJiMDFkNTU1ODM0YmU4ODQ5Mj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2ODI1MzU5MzJ9fX1dfQ__&Signature=BD4PrRn6wRLcbqCG4gOpsygpna~nDeCTxn8WjDGHn30sidsC6T59AkmX6U3hPlQgBQchOoPLn5WThOp-6-t2yk1SlFnlf6Q1YXIn5BDH6-vcgvAQJ-DU2nxjJO3E92WxwGsE1LjRZ39Pn~ma-VXjLwdij0WsdNAyNEcOvjVumhfVAJgZOsRvTM4Q0IqCfVLHgK1dSOYr9AG5YtbuPZWJrMWRf3Xr5MFWj4BNn8-1G-B~PlaO99I1YFPvL0RtrYnsdrFEvL~jViisgMLRnNYNudphOaI4d22xb~dKlNfTpRMIdT0ljpHjEPz74MJMFw77qWMkaVF1YppckkTxf0N7Lg__&Key-Pair-Id=KVTP0A1DKRTAX)
+open the RWKV folder and drop the [RWKV-4-Raven-7B-V10 model](https://cdn-lfs.huggingface.co/repos/41/55/4155c7aaff64e0f4b926df1a8fff201f8ee3653c39ba67b31e4973ae97828633/5c50ad861a16267ec45853bad106b6f6975c49f66e27fe2b01d555834be88492?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27RWKV-4-Raven-7B-v10-Eng99%2525-Other1%2525-20230418-ctx8192.pth%3B+filename%3D%22RWKV-4-Raven-7B-v10-Eng99%25-Other1%25-20230418-ctx8192.pth%22%3B&Expires=1682535932&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4tbGZzLmh1Z2dpbmdmYWNlLmNvL3JlcG9zLzQxLzU1LzQxNTVjN2FhZmY2NGUwZjRiOTI2ZGYxYThmZmYyMDFmOGVlMzY1M2MzOWJhNjdiMzFlNDk3M2FlOTc4Mjg2MzMvNWM1MGFkODYxYTE2MjY3ZWM0NTg1M2JhZDEwNmI2ZjY5NzVjNDlmNjZlMjdmZTJiMDFkNTU1ODM0YmU4ODQ5Mj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2ODI1MzU5MzJ9fX1dfQ__&Signature=BD4PrRn6wRLcbqCG4gOpsygpna~nDeCTxn8WjDGHn30sidsC6T59AkmX6U3hPlQgBQchOoPLn5WThOp-6-t2yk1SlFnlf6Q1YXIn5BDH6-vcgvAQJ-DU2nxjJO3E92WxwGsE1LjRZ39Pn~ma-VXjLwdij0WsdNAyNEcOvjVumhfVAJgZOsRvTM4Q0IqCfVLHgK1dSOYr9AG5YtbuPZWJrMWRf3Xr5MFWj4BNn8-1G-B~PlaO99I1YFPvL0RtrYnsdrFEvL~jViisgMLRnNYNudphOaI4d22xb~dKlNfTpRMIdT0ljpHjEPz74MJMFw77qWMkaVF1YppckkTxf0N7Lg__&Key-Pair-Id=KVTP0A1DKRTAX)
 
 click on it to download
 
-Here we used the V10 99% English 1% other 8192 ctx
+Here we used the V11X 99% English 1% other 8192 ctx (V11+LaMini instructions)
 
 you can download and use any other version found [HERE](https://huggingface.co/BlinkDL/rwkv-4-raven/tree/main)
 
-Make sure to install Cuda V12.x : 
+Make sure to install CUDA : 
  [Linux](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/)
  [Windows](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/)
 
