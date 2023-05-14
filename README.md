@@ -2,7 +2,7 @@
 <img   width='400' src="./assets/esprit.png" alt="kimou6055" /></a> 
 <img   width='400' src="./assets/INNOVISION.png" alt="kimou6055" /></a> 
 
-## Espritchatbot V1.1
+## Espritchatbot V1.2
 This is a chatbot designed to answer questions about Esprit University. It was created by a group of Esprit's Students called INNOVISION using the [Rasa](https://rasa.com/) framework.
 
 The unindexed intents are generated using the [RWKV-4-Raven](https://github.com/BlinkDL/RWKV-LM) Model
