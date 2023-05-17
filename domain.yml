@@ -106,7 +106,7 @@ intents:
 - admis_fr
 - carte_amen_fr
 - double_correction_fr
-- confirmation_option_fr ### je suis
+- confirmation_option_fr 
 - conseil_classe_fr
 - credit_fr
 - exemples_rapport_stage_fr
@@ -202,9 +202,25 @@ intents:
 - rentree_niveau_fr
 - rentree_niveau_ang
 - reconnaissance_diplome_fr
-
-
-
+- soft_skills_fr
+- soft_skills_ang
+- massai_fr
+- massai_ang
+- massai_plusinfo_fr
+- massai_plusinfo_ang
+- chatbot_esprit_fr
+- chatbot_esprit_ang
+- localisation_fr
+- localisation_ang
+- cellule_d'ecoute_fr
+- cellule_d'ecoute_ang
+- sentiment_fr 
+- sentiment_ang
+- sentiment_ar
+- activite_fr
+- activite_ang
+- creation_club_fr
+- creation_club_ang
 # - raven
 
 responses:
@@ -224,9 +240,9 @@ responses:
  utter_first_message:
   - text: "How can I help you?"
  utter_thanks:
-  - text: "welcome"
+  - text: "You are welcome, ask your questions anytime ! "
  utter_remerciement:
-  - text: "de rien"
+  - text: "Soyez le bienvenue, posez vos questions quand vous voulez ! "
  utter_remerciement_neg:
   - text: "Je suis désolé, vous pouvez consultez l'administration directement pour plus d'infomations : 
           📞 (216) 70 250 000\n📧 contact@esprit.tn"
@@ -1055,8 +1071,72 @@ responses:
             here is the link for online payment:
             https://esprit-tn.com/ESPOnline/Online/Login.aspx "
 
+ utter_soft_skills_fr:
+   - text: "Les soft skills sont importantes dans la vie professionnelle ainsi que personnelle.\n Pour cela, le Centre de Carrière ESPRIT propose différents ateliers et formations chaque semaine. Vous pouvez consulter le planning sur les réseaux sociaux ou par le biais du courrier électronique d'ESPRIT.\n  "
 
+ utter_soft_skills_ang:
+   - text: "Soft skills are important in both professional and personal life.\n To that end, the ESPRIT Career Center offers various workshops and training sessions every week. You can check the schedule on social media or via ESPRIT's email.\n  "
 
+ utter_massai_fr:
+   - text: "École d'été méditerranéenne et africaine sur l'intelligence artificielle MASSAI 2023.\n L'objectif de cette école d'été est de contribuer au développement du potentiel africain, de susciter des vocations et de stimuler les initiatives entrepreneuriales dans le domaine de l'IA.\n Cette école d'été offrira une formation pratique sur les développements récents en IA aux doctorants, aux post-doctorants, aux ingénieurs et aux chercheurs dans le domaine de l'IA.\n "
+
+ utter_massai_ang:
+   - text: "Mediterranean and African Summer School on Artificial Intelligence MASSAI 2023.\n The aim of this summer school, is to contribute to the development of the African potential, to arouse vocations and to trigger entrepreneurial initiatives in the field of AI.\n This summer school will provide practical training on recent developments in AI to PhD students, post-docs, engineers and researchers in the field of AI.\n "
+
+ utter_massai_plusinfo_fr:
+   - text: "CINQ JOURS DE CONFÉRENCES, DE TUTORIELS APPROFONDIS ET D'ATELIERS\n
+            L'objectif principal de l'événement est de proposer une série de cours couvrant les dernières avancées dans le domaine de l'IA et de la science des données. L'événement s'adresse aux étudiants des cycles supérieurs et doctorants, aux post-doctorants, aux universitaires, aux membres d'institutions publiques ou privées, ainsi qu'aux professionnels.\n
+            L'école d'été est composée de : \n
+            Des tutoriels approfondis en parallèle sur l'apprentissage automatique industriel, l'apprentissage par renforcement profond et la surveillance des risques de catastrophe à l'aide d'images satellite.\n
+            Des sessions pratiques en parallèle.\n
+            Six ateliers animés par des instructeurs avec délivrance de certifications.\n
+            Plusieurs possibilités de réseautage, notamment des sessions d'affiches, des rencontres possibles aux stands des sponsors, un cocktail de bienvenue et un banquet.\n "
+ utter_massai_plusinfo_ang:
+   - text: "FIVE DAYS OF TALKS, IN-DEPTH TUTORIALS AND WORKSHOPS \n
+          The primary focus of the event is to provide a series of courses covering the latest advances in the field of AI and data science. The event is targeted for graduate and PhD students, postdocs, academics, members of public or private institutions, and professionals.\n
+          The summer school is composed of:\n
+          Parallel In-depth tutorials on Industrial -Machine Learning , Deep Reinforcement Learning and Disaster Risk Monitoring Using Satellite Imagery\n
+          Parallel practical sessions.\n
+          6 Instructors led workshops with certifications.\n
+          Several networking facilities, including poster sessions, meeting possibilities at the sponsor booths, welcoming cocktail, banquet.\n "
+
+ utter_chatbot_esprit_fr:
+   - text: "Je m'appelle SPIRIT, je suis un chatbot conçu par l'équipe InnoVision et je fais partie de la famille ESPRIT.\n"
+ utter_chatbot_esprit_ang:
+   - text: "My name is SPIRIT, I am a chatbot designed by the InnoVision team and I am part of the ESPRIT family.\n"
+
+ utter_localisation_fr:
+   - text: "ESPRIT est situé à Tunis, en Tunisie. L'adresse exacte est la suivante : 1, 2 rue André Ampère - 2083 - Pôle Technologique - El Ghazala.\n  "
+
+ utter_localisation_ang:
+   - text: "ESPRIT is located in Tunis, Tunisia. The exact address is as follows: 1, 2 rue André Ampère - 2083 - Technological Pole - El Ghazala.\n"
+ 
+ utter_cellule_d'ecoute_fr:
+   - text: "La cellule d’écoute et d’accompagnement est un espace confidentiel qui a pour objectif d’accueillir,
+            écouter, comprendre, informer et orienter les élèves d'ESPRIT.\n
+            C’est un espace où les élèves peuvent parler de leurs doutes, de leurs problèmes et trouver une
+            orientation des différents domaines (scolarité, stress/anxiété, tristesse, mal être diffus...)\n"
+
+ utter_cellule_d'ecoute_ang:
+   - text: "The listening and support cell is a confidential space aimed at welcoming, listening to, understanding, informing, and guiding ESPRIT students.\n
+           It is a space where students can talk about their doubts, problems, and find guidance in various areas (academic, stress/anxiety, sadness, general well-being...).\n"
+ 
+ utter_sentiment_fr:
+   - text: "Je suis une intelligence artificielle et donc je n'ai pas de sentiments ou d'état physique, mais je suis prêt à vous aider avec toutes vos questions ou préoccupations. Comment puis-je vous assister aujourd'hui?\n" 
+ 
+ utter_sentiment_ang:
+   - text: "Since I am an artificial intelligence language model, I don't have emotions or physical sensations. However, I'm here and ready to assist you with any questions or concerns you may have. How can I help you today?\n"
+
+ utter_activite_fr:
+   - text: "À ESPRIT, il y a plusieurs moyens de divertissement : une piscine et une salle de sport se trouvent dans le bloc D. De plus, vous pouvez trouver une table de billard, une table de ping-pong et un jeu de hockey dans la buvette.\n N'hésitez pas à faire des pauses et à vous divertir, mais veillez à le faire avec modération.\n"
+ utter_activite_ang:
+   - text: "At ESPRIT, there are several means of entertainment: a swimming pool and a gym are located in block D. Additionally, you can find a pool table, a ping-pong table, and an air hockey game in the cafeteria.\n Feel free to take breaks and enjoy yourself, but remember to do so in moderation.\n"
+ utter_creation_club_fr:
+   - text: "ESPRIT encourage énormément la création de nouveaux clubs. Chaque année, des étudiants audacieux, ayant la même vision et surtout motivés se portent volontaire pour démarrer une expérience associative. Et rien de plus simple, il suffit d’avoir une idée, des objectifs clairs et de définir les missions du club. Ainsi, vous prendrez attache avec le service de la vie étudiante de ESPRIT, qui vous fournira un formulaire bien détaillé à remplir. Vous y indiquerez donc bon nombre d’informations nécessaires pour évaluer votre demande. Après évaluation, vous recevrez un message d’acceptation ou de refus.\n En cas de souci ou d’aide, vous pouvez vous rapprocher du comité des clubs de la faculté au mail comitedesclubs-esprit@esprit.tn.\n Alors n’attendez plus, lancez vous !\n" 
+ utter_creation_club_ang:
+   - text: "ESPRIT strongly encourages the creation of new clubs. Every year, bold students with the same vision and, most importantly, motivation volunteer to start an association experience. And it's as simple as can be: all you need is an idea, clear objectives, and defining the club's missions. Thus, you will get in touch with ESPRIT's student life service, which will provide you with a detailed form to fill out. In this form, you will provide the necessary information to evaluate your request. After evaluation, you will receive a message of acceptance or refusal.\n If you have any issues or need assistance, you can reach out to the faculty's club committee at comitedesclubs-esprit@esprit.tn.\n So don't wait any longer, go for it!\n" 
+ 
+ 
  ####################################### Hedi #########################
 
  utter_nature_cours_fr:
@@ -1138,40 +1218,6 @@ slots:
     type: text
     mappings:
     - type: from_text
-
-# slots:
-#   acceptation_slot:
-#     type: bool
-#     influence_conversation: true
-#     mappings:
-#     - type: from_intent
-#       value: true
-#       intent: affirm
-#     - type: from_intent
-#       value: false
-#       intent: deny
-#   mode_pro:
-#     type: bool
-#     initial_value: false
-#     influence_conversation: true
-#     mappings:
-#     - type: from_intent
-#       intent: pro_mode
-#       value: true
-#     - type: from_intent
-#       intent: normal_mode
-#       value: false
-#   mode_normal:
-#     type: bool
-#     initial_value: true
-#     influence_conversation: true
-#     mappings:
-#     - type: from_intent
-#       intent: normal_mode
-#       value: true
-#     - type: from_intent
-#       intent: pro_mode
-#       value: false
 
 
 
