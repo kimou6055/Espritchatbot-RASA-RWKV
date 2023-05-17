@@ -1327,5 +1327,98 @@ stories:
     - action: action_random_topic
     - intent: affirm
     - action: action_topic_info
-  
 
+  - story: soft_skills_fr
+    steps:
+    - intent: soft_skills_fr
+    - action: utter_soft_skills_fr
+
+  - story: soft_skills_ang
+    steps:
+    - intent: soft_skills_ang
+    - action: utter_soft_skills_ang
+
+  - story: massai_fr
+    steps:
+    - intent: massai_fr
+    - action: utter_massai_fr
+
+  - story: massai_ang
+    steps:
+    - intent: massai_ang
+    - action: utter_massai_ang
+    
+  - story: massai_plusinfo_fr
+    steps:
+    - intent: massai_plusinfo_fr
+    - action: utter_massai_plusinfo_fr
+   
+  - story: massai_plusinfo_ang
+    steps:
+    - intent: massai_plusinfo_ang
+    - action: utter_massai_plusinfo_ang
+   
+  - story: chatbot_esprit_fr
+    steps:
+    - intent: chatbot_esprit_fr
+    - action: utter_chatbot_esprit_fr
+
+  - story: chatbot_esprit_ang
+    steps:
+    - intent: chatbot_esprit_ang
+    - action: utter_chatbot_esprit_ang
+
+  - story: localisation_fr
+    steps:
+    - intent: localisation_fr
+    - action: utter_localisation_fr
+
+  - story: localisation_ang
+    steps:
+    - intent: localisation_ang
+    - action: utter_localisation_ang
+
+  - story: cellule_d'ecoute_fr
+    steps:
+    - intent: cellule_d'ecoute_fr
+    - action: utter_cellule_d'ecoute_fr
+
+  - story: cellule_d'ecoute_ang
+    steps:
+    - intent: cellule_d'ecoute_ang
+    - action: utter_cellule_d'ecoute_ang
+
+  - story: sentiment_fr
+    steps:
+    - intent: sentiment_fr
+    - action: utter_sentiment_fr
+
+  - story: sentiment_ang
+    steps:
+    - intent: sentiment_ang
+    - action: utter_sentiment_ang
+
+  - story: sentiment_ar
+    steps:
+    - intent: sentiment_ar
+    - action: utter_sentiment_fr
+
+  - story: activite_fr
+    steps:
+    - intent: activite_fr
+    - action: utter_activite_fr
+
+  - story: activite_ang
+    steps:
+    - intent: activite_ang
+    - action: utter_activite_ang
+
+  - story: creation_club_fr
+    steps:
+    - intent: creation_club_fr
+    - action: utter_creation_club_fr
+
+  - story: creation_club_ang
+    steps:
+    - intent: creation_club_ang
+    - action: utter_creation_club_ang
